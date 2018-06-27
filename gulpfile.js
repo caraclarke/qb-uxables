@@ -58,6 +58,11 @@ gulp.task('move:icons', function() {
     .pipe(gulp.dest('app/img/icons'));
 });
 
+gulp.task('move:js', function() {
+  return gulp.src('app/js/build/*.js')
+  .pipe(gulp.dest('docs/js/'));
+});
+
 gulp.task('build:icons', function() {
   return gulp.src('app/img/icons/icons.**.css')
     .pipe(gulp.dest('docs/img/icons/'));
@@ -144,7 +149,7 @@ gulp.task('serve:build', function() {
 });
 
 gulp.task('build', function(cb) {
-  runSequence('cache:clear', 'clean:build', ['sass', 'js', 'build:vendor'], 'build:portal', 'move:icons', 'build:icons', 'build:img', 'ejs', 'useref', cb)
+  runSequence('cache:clear', 'clean:build', ['sass', 'js', 'build:vendor'], 'build:portal', 'move:js', 'move:icons', 'build:icons', 'build:img', 'ejs', 'useref', cb)
 });
 
 gulp.task('watch', ['browserSync', 'sass'], function() {
