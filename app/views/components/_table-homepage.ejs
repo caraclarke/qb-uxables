@@ -24,7 +24,7 @@
       <td><%= item.activityType %> Phone Call</td>
       <td><%= item.activityDate %></td>
       <td><%= item.customerName %></td>
-      <td><%= item.scheduledFor.first %> <%= item.scheduledFor.last %></td>
+      <td><%= item.scheduledFor.last %>, <%= item.scheduledFor.first %></td>
       <td><%= item.duration %></td>
       <td><%= item.scheduledStatus %></td>
       <td><%= item.scheduledStartTime %></td>
@@ -32,3 +32,7 @@
     <% }) %>
   </tbody>
 </table>
+
+<div class="col-xs-12">
+  <p>25 activities</p>
+</div>
