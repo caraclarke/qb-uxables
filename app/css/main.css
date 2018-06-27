@@ -78,6 +78,10 @@
     width: 16px;
     border-radius: 2px;
     border: 1px solid grey; }
+  .checkbox-label .dots {
+    position: relative;
+    bottom: 2px;
+    font-size: 15px; }
 
 .table-header {
   background-color: #edecee;
