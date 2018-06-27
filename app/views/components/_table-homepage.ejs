@@ -1,0 +1,30 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col"><input type="checkbox" /></th>
+      <th scope="col">Activity Type</th>
+      <th scope="col">Activity Date</th>
+      <th scope="col">Customer Name</th>
+      <th scope="col">Scheduled for</th>
+      <th scope="col">Duration (mins)</th>
+      <th scope="col">Scheduled stats</th>
+      <th scope="col">scheduled start date/time</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% tableData.forEach(function(item) { %>
+    <tr>
+      <th scope="row">
+        <% include ./_checkbox %>
+      </th>
+      <td><%= item.activityType %> Phone Call</td>
+      <td><%= item.activityDate %></td>
+      <td><%= item.customerName %></td>
+      <td><%= item.scheduledFor.first %> <%= item.scheduledFor.last %></td>
+      <td><%= item.duration %></td>
+      <td><%= item.scheduledStatus %></td>
+      <td><%= item.scheduledStartTime %></td>
+    </tr>
+    <% }) %>
+  </tbody>
+</table>

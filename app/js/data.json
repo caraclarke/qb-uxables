@@ -11,7 +11,7 @@
         "first": "Wilkins",
         "last": "Larsen"
       },
-      "duration": "<ReferenceError: string is not defined>",
+      "duration": "55",
       "scheduledStatus": "Unscheduled",
       "scheduledStartTime": "Monday, June 4, 2018 2:53 PM"
     },
@@ -26,7 +26,7 @@
         "first": "Shepard",
         "last": "Haynes"
       },
-      "duration": "<ReferenceError: string is not defined>",
+      "duration": "55",
       "scheduledStatus": "Unscheduled",
       "scheduledStartTime": "Thursday, January 19, 2017 10:50 AM"
     },
@@ -41,7 +41,7 @@
         "first": "Letha",
         "last": "Casey"
       },
-      "duration": "<ReferenceError: string is not defined>",
+      "duration": "55",
       "scheduledStatus": "Scheduled",
       "scheduledStartTime": "Friday, August 21, 2015 1:48 PM"
     },
@@ -56,7 +56,7 @@
         "first": "Barron",
         "last": "Dale"
       },
-      "duration": "<ReferenceError: string is not defined>",
+      "duration": "55",
       "scheduledStatus": "Unscheduled",
       "scheduledStartTime": "Monday, July 17, 2017 5:42 PM"
     },
@@ -71,7 +71,7 @@
         "first": "Burks",
         "last": "Lynn"
       },
-      "duration": "<ReferenceError: string is not defined>",
+      "duration": "55",
       "scheduledStatus": "Scheduled",
       "scheduledStartTime": "Friday, October 7, 2016 2:55 PM"
     },
@@ -86,7 +86,7 @@
         "first": "Rhodes",
         "last": "Good"
       },
-      "duration": "<ReferenceError: string is not defined>",
+      "duration": "55",
       "scheduledStatus": "Unscheduled",
       "scheduledStartTime": "Thursday, March 5, 2015 7:17 PM"
     },
@@ -101,7 +101,7 @@
         "first": "Donna",
         "last": "Lindsey"
       },
-      "duration": "<ReferenceError: string is not defined>",
+      "duration": "55",
       "scheduledStatus": "Unscheduled",
       "scheduledStartTime": "Monday, September 7, 2015 4:19 PM"
     },
@@ -116,7 +116,7 @@
         "first": "Mallory",
         "last": "Pittman"
       },
-      "duration": "<ReferenceError: string is not defined>",
+      "duration": "55",
       "scheduledStatus": "Scheduled",
       "scheduledStartTime": "Friday, December 30, 2016 12:05 PM"
     },
@@ -131,7 +131,7 @@
         "first": "Howard",
         "last": "Garza"
       },
-      "duration": "<ReferenceError: string is not defined>",
+      "duration": "55",
       "scheduledStatus": "Scheduled",
       "scheduledStartTime": "Saturday, March 10, 2018 3:04 PM"
     },
@@ -146,7 +146,7 @@
         "first": "Dudley",
         "last": "Villarreal"
       },
-      "duration": "<ReferenceError: string is not defined>",
+      "duration": "55",
       "scheduledStatus": "Unscheduled",
       "scheduledStartTime": "Thursday, November 17, 2016 3:25 AM"
     },
@@ -161,7 +161,7 @@
         "first": "Patton",
         "last": "Hull"
       },
-      "duration": "<ReferenceError: string is not defined>",
+      "duration": "55",
       "scheduledStatus": "Scheduled",
       "scheduledStartTime": "Saturday, September 26, 2015 1:13 AM"
     },
@@ -176,7 +176,7 @@
         "first": "Huber",
         "last": "Norton"
       },
-      "duration": "<ReferenceError: string is not defined>",
+      "duration": "55",
       "scheduledStatus": "Scheduled",
       "scheduledStartTime": "Tuesday, August 26, 2014 7:32 PM"
     },
@@ -191,7 +191,7 @@
         "first": "Lula",
         "last": "Cline"
       },
-      "duration": "<ReferenceError: string is not defined>",
+      "duration": "55",
       "scheduledStatus": "Scheduled",
       "scheduledStartTime": "Tuesday, March 11, 2014 2:44 PM"
     },
@@ -206,7 +206,7 @@
         "first": "Williams",
         "last": "Herring"
       },
-      "duration": "<ReferenceError: string is not defined>",
+      "duration": "55",
       "scheduledStatus": "Unscheduled",
       "scheduledStartTime": "Monday, May 1, 2017 9:55 PM"
     },
@@ -221,7 +221,7 @@
         "first": "Ingrid",
         "last": "Rhodes"
       },
-      "duration": "<ReferenceError: string is not defined>",
+      "duration": "55",
       "scheduledStatus": "Scheduled",
       "scheduledStartTime": "Tuesday, August 9, 2016 2:47 PM"
     },
@@ -236,7 +236,7 @@
         "first": "Santana",
         "last": "Avery"
       },
-      "duration": "<ReferenceError: string is not defined>",
+      "duration": "55",
       "scheduledStatus": "Unscheduled",
       "scheduledStartTime": "Sunday, October 22, 2017 9:47 PM"
     },
@@ -251,7 +251,7 @@
         "first": "Tammie",
         "last": "Wilson"
       },
-      "duration": "<ReferenceError: string is not defined>",
+      "duration": "55",
       "scheduledStatus": "Scheduled",
       "scheduledStartTime": "Tuesday, February 7, 2017 5:12 PM"
     } 

@@ -1,9 +1,21 @@
 <% include ../partials/_header %>
 
 <section class="col-xs-10 section" id="main">
-  <h1>Hello world <span class="icon icon--coffee"></span></h1>
 
-  <ul id="users"></ul>
+  <div class="col-xs-12">
+    <!-- img header -->
+    <div class="col-xs-6 img-div">
+      <img src="./img/table-header-left.png" class="img-responsive" />
+    </div>
+    <div class="col-xs-6 img-div">
+      <img src="./img/table-header-right.png" class="img-responsive" />
+    </div>
+
+    <!-- table -->
+    <div class="col-xs-12">
+      <% include ../partials/_table-view %>  
+    </div> 
+  </div>
 </section>
 
 <% include ../partials/_footer %>
