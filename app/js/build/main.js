@@ -30,10 +30,11 @@ colorTrigger.forEach(function (item) {
 });
 
 tableRow.addEventListener("focus", function (e) {
+  $('[data-toggle="popover"]').popover();
   e.target.addEventListener("keypress", keypressListen);
 });
 
-tableRow.addEventListener("hover", function (e) {
+tableRow.addEventListener("click", function (e) {
   console.log("do some sort of hover plus popover whatever");
 });
 
