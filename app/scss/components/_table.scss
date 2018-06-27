@@ -1,3 +1,7 @@
+.table-section {
+  background-color: $grey;
+}
+
 .table-sidebar {
   margin-left: 15px;
 }
@@ -6,8 +10,8 @@
   border-bottom: 1px solid #dee2e6;
 
   .table-header {
-    background-color: #edecee;
-    border: 1px solid #edecee;
+    background-color: $grey;
+    border: 1px solid $grey;
 
     th {
       text-transform: uppercase;
@@ -26,6 +30,7 @@
 
   .table-body {
     font-size: 15px;
+    background-color: white;
 
     .table-row {
       &:hover {
