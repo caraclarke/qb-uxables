@@ -1,5 +1,9 @@
-<input class="js-validate form-check-input"
-  id="<%= item.id %>"
-  <%= item.checked %>
-  type="checkbox" />
-
+<div class="checkbox">
+    <input
+      type="checkbox"
+      class="checkbox-element"
+      id="<%= item.id %>"
+      required="<%= item.required %>"
+    />
+    <label for="<%= item.id %>" class="checkbox-label">...</label> 
+</div>

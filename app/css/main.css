@@ -13,3 +13,80 @@
 
 .img-div {
   display: inline-block; }
+
+.checkbox {
+  display: inline-block;
+  padding-right: 3px; }
+
+.checkbox-element {
+  /*
+* https://webaim.org/techniques/css/invisiblecontent/#techniques
+* hiding the checkbox styles
+* border/margin/padding helps turn off any default browser padding 
+* height/clip work as a backup in case positioning fails or isn't supported for some reason.
+*/
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  /* hide the check by default */ }
+  .checkbox-element + label::after {
+    content: none; }
+  .checkbox-element + label::before {
+    background-size: 0% 0%;
+    -webkit-transition: background-size 0.05s ease-in-out;
+    transition: background-size 0.05s ease-in-out; }
+  unhide the checkmark on the checked state
+.checkbox-element:checked + label::after {
+    content: ''; }
+  .checkbox-element:checked + label::before {
+    border: 1px solid black;
+    -webkit-transition: border 0.05s ease-in-out;
+    transition: border 0.05s ease-in-out; }
+  .checkbox-element:checked + label::before {
+    background-size: 100% 100%;
+    -webkit-transition: background-size 0.05s;
+    transition: background-size 0.05s; }
+  @media (-webkit-min-device-pixel-ratio: 0) {
+    .checkbox-element:focus + label::before,
+    .checkbox-element:active + label::before {
+      outline-color: -webkit-focus-ring-color;
+      outline-style: auto; } }
+
+.checkbox-label {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 2px; }
+  .checkbox-label::after {
+    position: absolute; }
+  .checkbox-label::before {
+    content: '';
+    position: relative;
+    margin-right: 6px;
+    top: 4px;
+    left: 0;
+    background-position: 50% 50%;
+    background-image: -webkit-gradient(linear, left top, left bottom, from("#1b99ff"), to("#1b99ff"));
+    background-image: linear-gradient("#1b99ff", "#1b99ff");
+    background-repeat: no-repeat;
+    background-size: 0% 0%;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 2px;
+    border: 1px solid black; }
+  .checkbox-label::after {
+    content: '';
+    left: 2px;
+    top: 8px;
+    display: inline-block;
+    height: 9px;
+    width: 13px;
+    background-image: url("../img/white-check.svg"); }
