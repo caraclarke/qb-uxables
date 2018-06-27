@@ -1,9 +1,17 @@
+.icon--app-icon-folder {
+  background-image: url("png/app-icon-folder.png");
+  background-repeat: no-repeat; }
+
 .icon--coffee {
   background-image: url("png/coffee.png");
   background-repeat: no-repeat; }
 
 .icon--icon-filter {
   background-image: url("png/icon-filter.png");
+  background-repeat: no-repeat; }
+
+.icon--icon-folder {
+  background-image: url("png/icon-folder.png");
   background-repeat: no-repeat; }
 
 .icon--icon-notifications {
@@ -20,8 +28,4 @@
 
 .icon--icon-user {
   background-image: url("png/icon-user.png");
-  background-repeat: no-repeat; }
-
-.icon--left-rail {
-  background-image: url("png/left-rail.png");
   background-repeat: no-repeat; }

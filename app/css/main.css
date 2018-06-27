@@ -156,6 +156,12 @@
       border-color: #F29C6C;
       background-color: #F29C6C; }
 
+.table-sidebar {
+  text-align: center; }
+  .table-sidebar .folder-icon {
+    margin-top: 25px;
+    height: 26px; }
+
 .color-rail {
   height: 100%;
   background-color: #9AAD55; }
