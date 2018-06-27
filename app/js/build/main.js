@@ -8,6 +8,8 @@ var sidebarShow = document.querySelector(".sidebar-trigger");
 var sidebarHide = document.querySelector(".sidebar-display");
 var tableRow = document.querySelector(".table-row:nth-of-type(1)");
 var newRowChild = document.querySelector(".new-row");
+var minusButton = document.querySelector(".minus");
+var rowButtons = document.querySelector(".add-btns");
 
 var addRow = function addRow() {
   tableRow.parentNode.prepend(newRowChild);
@@ -36,6 +38,17 @@ colorTrigger.forEach(function (item) {
 tableRow.addEventListener("focus", function (e) {
   $('[data-toggle="popover"]').popover();
   e.target.addEventListener("keypress", keypressListen);
+});
+
+tableRow.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  rowButtons.classList.toggle("hide");
+});
+
+minusButton.addEventListener("click", function (e) {
+  e.preventDefault();
+  addRow();
 });
 
 sidebarShow.addEventListener("click", function (e) {

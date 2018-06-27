@@ -40,6 +40,11 @@
     font-size: 15px;
     background-color: white;
 
+    .add-btns {
+      display: inline-block;
+      padding-left: 50px;
+    }
+
     .table-row {
       &:hover {
         cursor: pointer;

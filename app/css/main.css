@@ -111,6 +111,9 @@
   .table .table-body {
     font-size: 15px;
     background-color: white; }
+    .table .table-body .add-btns {
+      display: inline-block;
+      padding-left: 50px; }
     .table .table-body .table-row:hover {
       cursor: pointer;
       background-color: #F4FBFE; }

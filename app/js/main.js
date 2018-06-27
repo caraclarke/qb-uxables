@@ -6,6 +6,8 @@ const sidebarShow = document.querySelector(".sidebar-trigger");
 const sidebarHide = document.querySelector(".sidebar-display");
 const tableRow = document.querySelector(".table-row:nth-of-type(1)");
 const newRowChild = document.querySelector(".new-row");
+const minusButton = document.querySelector(".minus");
+const rowButtons = document.querySelector(".add-btns");
 
 const addRow = () => {
   tableRow.parentNode.prepend(newRowChild);
@@ -35,6 +37,17 @@ tableRow.addEventListener("focus", ( e ) => {
   $('[data-toggle="popover"]').popover();
   e.target.addEventListener("keypress", keypressListen);
 });
+
+tableRow.addEventListener("click", ( e ) => {
+  e.preventDefault();
+
+  rowButtons.classList.toggle("hide");
+});
+
+minusButton.addEventListener("click", ( e ) => {
+  e.preventDefault();
+  addRow();
+})
 
 sidebarShow.addEventListener("click", ( e ) => {
   e.preventDefault();
