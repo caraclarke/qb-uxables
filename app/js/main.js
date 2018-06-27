@@ -12,7 +12,7 @@ const rowButtons = document.querySelector(".add-btns");
 const forward = document.querySelector("#speed");
 const back = document.querySelector("#negative");
 const videos = document.querySelectorAll(".video");
-let rewindVideo;
+let intervalRewind;
 
 // updated stuffs
 const colorPickerClick = document.querySelector(".color-picker-img");
@@ -78,16 +78,12 @@ colorPickerClick.addEventListener("click", ( e ) => {
 
 // video stuff
 if ( videos ) {
-  const reset = ( element ) => {
-    element.pause();
-    element.currentTime = 0;
-  };
 
   const play = (element) => {
     element.play();
   };
 
-  const back = ( element ) => {
+  const rewind = ( element ) => {
     intervalRewind = setInterval(function(){
        element.playbackRate = 1.0;
        if(element.currentTime == 0) {
@@ -105,7 +101,7 @@ if ( videos ) {
     });
 
     item.addEventListener("mouseleave", ( e ) => {
-      back(item);
+      rewind(item);
     });
   });
 }

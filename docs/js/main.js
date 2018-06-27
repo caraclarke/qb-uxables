@@ -14,7 +14,7 @@ var rowButtons = document.querySelector(".add-btns");
 var forward = document.querySelector("#speed");
 var back = document.querySelector("#negative");
 var videos = document.querySelectorAll(".video");
-var rewindVideo = void 0;
+var intervalRewind = void 0;
 
 // updated stuffs
 var colorPickerClick = document.querySelector(".color-picker-img");
