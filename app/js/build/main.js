@@ -91,14 +91,14 @@ if (videos) {
   var rewind = function rewind(element) {
     var el = element;
     intervalRewind = setInterval(function () {
-      el.playbackRate = 1.0;
+      el.playbackRate = 0.75;
       if (el.currentTime === 0) {
         clearInterval(intervalRewind);
         el.pause();
       } else {
-        el.currentTime -= 0.05;
+        el.currentTime -= 0.1;
       }
-    }, 3);
+    }, 4);
   };
 
   videos.forEach(function (item) {
