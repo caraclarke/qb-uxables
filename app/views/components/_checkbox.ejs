@@ -2,8 +2,9 @@
     <input
       type="checkbox"
       class="checkbox-element"
-      id="<%= item.id %>"
-      required="<%= item.required %>"
+      <%if (item.checked) { %>
+        checked
+      <%} %>
     />
     <label for="<%= item.id %>" class="checkbox-label">...</label> 
 </div>

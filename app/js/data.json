@@ -3,7 +3,9 @@
     {
       "_id": "5b3386b27c4713cb7a618696",
       "index": 0,
-      "checked": true,
+      "checkbox": {
+        "checked": false
+      },
       "activityType": "Inbound",
       "activityDate": "01/06/2018",
       "customerName": "Acrodance",
@@ -18,7 +20,9 @@
     {
       "_id": "5b3386b22e12b8d0ecab0a43",
       "index": 1,
-      "checked": false,
+      "checkbox": {
+        "checked": false
+      },
       "activityType": "Inbound",
       "activityDate": "06/19/2018",
       "customerName": "Zorromop",
@@ -33,7 +37,9 @@
     {
       "_id": "5b3386b2b33cfe5c012ab00f",
       "index": 2,
-      "checked": false,
+      "checkbox": {
+        "checked": false
+      },
       "activityType": "Inbound",
       "activityDate": "05/29/2018",
       "customerName": "Amtas",
@@ -48,7 +54,9 @@
     {
       "_id": "5b3386b22417e8b74e86f1f4",
       "index": 3,
-      "checked": true,
+      "checkbox": {
+        "checked": false
+      },
       "activityType": "Inbound",
       "activityDate": "01/07/2018",
       "customerName": "Zilidium",
@@ -63,7 +71,9 @@
     {
       "_id": "5b3386b2909507128af46d67",
       "index": 4,
-      "checked": true,
+      "checkbox": {
+        "checked": false
+      },
       "activityType": "Outbound",
       "activityDate": "01/14/2018",
       "customerName": "Interfind",
@@ -78,7 +88,9 @@
     {
       "_id": "5b3386b20ccd6594f7396969",
       "index": 5,
-      "checked": false,
+      "checkbox": {
+        "checked": false
+      },
       "activityType": "Inbound",
       "activityDate": "04/02/2018",
       "customerName": "Bittor",
@@ -93,7 +105,9 @@
     {
       "_id": "5b3386b20d32cee75a957e31",
       "index": 6,
-      "checked": true,
+      "checkbox": {
+        "checked": false
+      },
       "activityType": "Outbound",
       "activityDate": "06/04/2018",
       "customerName": "Dentrex",
@@ -108,7 +122,9 @@
     {
       "_id": "5b3386b2afc18c403fa92f6d",
       "index": 7,
-      "checked": true,
+      "checkbox": {
+        "checked": false
+      },
       "activityType": "Outbound",
       "activityDate": "01/07/2018",
       "customerName": "Ziggles",
@@ -123,7 +139,9 @@
     {
       "_id": "5b3386b2c8b499e7ae4047d5",
       "index": 8,
-      "checked": false,
+      "checkbox": {
+        "checked": false
+      },
       "activityType": "Outbound",
       "activityDate": "02/15/2018",
       "customerName": "Blurrybus",
@@ -138,7 +156,9 @@
     {
       "_id": "5b3386b23e8ae15d03d87105",
       "index": 9,
-      "checked": false,
+      "checkbox": {
+        "checked": false
+      },
       "activityType": "Outbound",
       "activityDate": "04/10/2018",
       "customerName": "Renovize",
@@ -153,7 +173,9 @@
     {
       "_id": "5b3386b2606ed3807ef1b887",
       "index": 10,
-      "checked": false,
+      "checkbox": {
+        "checked": false
+      },
       "activityType": "Outbound",
       "activityDate": "05/29/2018",
       "customerName": "Geekology",
@@ -168,7 +190,9 @@
     {
       "_id": "5b3386b24403107ec9c10c00",
       "index": 11,
-      "checked": false,
+      "checkbox": {
+        "checked": false
+      },
       "activityType": "Inbound",
       "activityDate": "06/03/2018",
       "customerName": "Hopeli",
@@ -183,7 +207,9 @@
     {
       "_id": "5b3386b2d5a5431564e58847",
       "index": 12,
-      "checked": false,
+      "checkbox": {
+        "checked": false
+      },
       "activityType": "Outbound",
       "activityDate": "06/01/2018",
       "customerName": "Fanfare",
@@ -198,7 +224,9 @@
     {
       "_id": "5b3386b2faed8036fe726152",
       "index": 13,
-      "checked": false,
+      "checkbox": {
+        "checked": false
+      },
       "activityType": "Inbound",
       "activityDate": "05/08/2018",
       "customerName": "Limozen",
@@ -213,7 +241,9 @@
     {
       "_id": "5b3386b232dc3fd6520b44f3",
       "index": 14,
-      "checked": true,
+      "checkbox": {
+        "checked": false
+      },
       "activityType": "Outbound",
       "activityDate": "04/11/2018",
       "customerName": "Neurocell",

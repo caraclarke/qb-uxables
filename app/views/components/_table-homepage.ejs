@@ -18,6 +18,7 @@
     <% tableData.forEach(function(item) { %>
     <tr>
       <th scope="row">
+        <% input=item.checkbox %>
         <% include ./_checkbox %>
       </th>
       <td><%= item.activityType %> Phone Call</td>
