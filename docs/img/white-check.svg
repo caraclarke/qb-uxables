@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9" viewBox="0 0 12 9">
+  <title>checkmark</title>
+    <g fill="none" fill-rule="evenodd" stroke="#FFF" stroke-linecap="square" stroke-width="2">
+        <path d="M2 5l2.121 2.121M10.5 1.5l-6 6"/>
+    </g>
+</svg>

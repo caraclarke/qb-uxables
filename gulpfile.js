@@ -45,12 +45,12 @@ gulp.task('clean:ejs', function() {
 
 gulp.task('build:vendor', function() {
   return gulp.src('app/vendor/**/*.js')
-    .pipe(gulp.dest('dist/vendor'));
+    .pipe(gulp.dest('docs/vendor'));
 });
 
 gulp.task('build:portal', function() {
   return gulp.src(['app/css/base/*.css', 'app/css/portal/**/*.css'])
-    .pipe(gulp.dest('dist/css/portal/'));
+    .pipe(gulp.dest('docs/css/portal/'));
 });
 
 gulp.task('move:icons', function() {
@@ -60,12 +60,12 @@ gulp.task('move:icons', function() {
 
 gulp.task('build:icons', function() {
   return gulp.src('app/img/icons/icons.**.css')
-    .pipe(gulp.dest('dist/img/icons/'));
+    .pipe(gulp.dest('docs/img/icons/'));
 });
 
 gulp.task('build:img', function() {
   return gulp.src('app/img/**/*')
-    .pipe(gulp.dest('dist/img'));
+    .pipe(gulp.dest('docs/img'));
 });
 
 gulp.task('ejs', ['clean:ejs'], function() {
@@ -132,13 +132,13 @@ gulp.task('useref', function() {
     .pipe(gulpIf('*.js', uglify()))
     // minifies if css
     .pipe(gulpIf('*.css', cssnano()))
-    .pipe(gulp.dest('dist'))
+    .pipe(gulp.dest('docs'))
 });
 
 gulp.task('serve:build', function() {
   browserSync.init({
     server: {
-      baseDir: 'dist'
+      baseDir: 'docs'
     }
   });
 });
