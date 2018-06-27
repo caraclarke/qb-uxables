@@ -80,16 +80,12 @@ if (pickerTrigger) {
 
 // video stuff
 if (videos) {
-  var reset = function reset(element) {
-    element.pause();
-    element.currentTime = 0;
-  };
 
   var play = function play(element) {
     element.play();
   };
 
-  var _back = function _back(element) {
+  var rewind = function rewind(element) {
     intervalRewind = setInterval(function () {
       element.playbackRate = 1.0;
       if (element.currentTime == 0) {
@@ -107,7 +103,7 @@ if (videos) {
     });
 
     item.addEventListener("mouseleave", function (e) {
-      _back(item);
+      rewind(item);
     });
   });
 }
