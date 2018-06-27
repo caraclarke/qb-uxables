@@ -162,8 +162,8 @@
         "last": "Richard"
       },
       "duration": "7",
-      "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "February 25th 2018"
+      "scheduledStatus": "Cancelled",
+      "scheduledStartTime": "n/a"
     },
     {
       "_id": "5b3386b24403107ec9c10c00",
@@ -207,8 +207,8 @@
         "last": "Mann"
       },
       "duration": "45",
-      "scheduledStatus": "Scheduled",
-      "scheduledStartTime": "May 21st 2018"
+      "scheduledStatus": "Cancelled",
+      "scheduledStartTime": "n/a"
     },
     {
       "_id": "5b3386b232dc3fd6520b44f3",
