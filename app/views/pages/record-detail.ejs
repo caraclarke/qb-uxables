@@ -1,3 +1,28 @@
 <% include ../partials/_header %>
 
+<section class="col-xs-10 section" id="main">
+
+  <div class="col-xs-12">
+    <!-- img header -->
+    <div class="col-xs-12 row">
+      <div class="col-xs-6">
+        <img src="./img/table/header-one.png" class="table-header img-fluid one" />
+      </div>
+      <div class="col-xs-6">
+        <img src="./img/table/header-three.png" class="table-header img-fluid three" />
+      </div>
+    </div>
+
+    <!-- table -->
+    <div class="col-xs-12">
+      <% include ../partials/_table-view %>  
+    </div> 
+  </div>
+</section>
+
+<div class="modals">
+  <% include ../components/_row-modal %>
+  <% include ../components/_color-picker %>
+</div>
+
 <% include ../partials/_footer %>

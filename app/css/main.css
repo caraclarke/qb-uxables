@@ -244,3 +244,32 @@
 
 .table-row {
   cursor: pointer; }
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #ffffff;
+  background-image: url("../img/tables/table-hmpg_bg.png");
+  background-repeat: repeat-x;
+  width: 100%;
+  min-width: 1240px; }
+
+/* ------ Global ----- */
+.left {
+  float: left; }
+
+.right {
+  float: right; }
+
+/* ------ Table Homepage ----- */
+.page-top_table {
+  min-width: 100%; }
+
+.table {
+  display: table;
+  table-layout: fixed;
+  min-width: 100%;
+  clear: both; }
+
+.col {
+  display: table-cell; }
