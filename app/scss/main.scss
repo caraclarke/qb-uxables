@@ -12,6 +12,11 @@
 /***************************
   RULES
 ****************************/
+.pd {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .icon {
   padding: 0 20px 0 10px;
   margin-left: 15px;
@@ -19,4 +24,8 @@
 
 .img-div {
   display: inline-block;
+
+  &.right {
+    float: right;
+  }
 }
