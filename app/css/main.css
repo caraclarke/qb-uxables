@@ -168,9 +168,17 @@
       .color-rail .icons-list li.bell {
         border-bottom: 1px solid #fff; }
 
-.table-list-sidebar .sidebar-display {
-  height: 100%;
-  max-height: 1260px; }
+.table-list-sidebar {
+  width: 0px;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
+  max-width: 265px;
+  cursor: pointer; }
+  .table-list-sidebar.display {
+    width: 265px; }
+  .table-list-sidebar .sidebar-display {
+    height: 100%;
+    max-height: 1260px; }
 
 .picker-container {
   height: 100%; }

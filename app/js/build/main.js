@@ -41,11 +41,11 @@ tableRow.addEventListener("focus", function (e) {
 sidebarShow.addEventListener("click", function (e) {
   e.preventDefault();
 
-  tableSidebar.classList.toggle("hide");
+  tableSidebar.classList.toggle("display");
 });
 
 sidebarHide.addEventListener("click", function (e) {
   e.preventDefault();
 
-  tableSidebar.classList.add("hide");
+  tableSidebar.classList.toggle("display");
 });
