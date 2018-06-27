@@ -25,10 +25,8 @@
 }
 
 .img-div {
-  display: inline-block;
-
-  &.right {
-    float: right;
+  img {
+    width: 100%;
   }
 }
 

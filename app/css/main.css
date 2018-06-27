@@ -83,6 +83,12 @@
     bottom: 2px;
     font-size: 15px; }
 
+.panel-view {
+  background-color: red; }
+
+.table-table {
+  background-color: #edecee; }
+
 .table-section {
   background-color: #edecee; }
 
@@ -180,9 +186,6 @@
     height: 100%;
     max-height: 1260px; }
 
-.picker-container {
-  height: 100%; }
-
 /***************************
   RULES
 ****************************/
@@ -194,10 +197,8 @@
   padding: 0 20px 0 10px;
   margin-left: 15px; }
 
-.img-div {
-  display: inline-block; }
-  .img-div.right {
-    float: right; }
+.img-div img {
+  width: 100%; }
 
 .hide {
   display: none;
