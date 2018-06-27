@@ -154,6 +154,9 @@
     list-style-type: none;
     padding-left: 0; }
 
+.picker-container {
+  height: 100%; }
+
 /***************************
   RULES
 ****************************/

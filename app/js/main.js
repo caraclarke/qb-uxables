@@ -1,11 +1,12 @@
 const rail = document.querySelectorAll(".rail");
-const railContainer = document.querySelector(".rail-container");
+const pickerTrigger = document.querySelector(".picker-container");
 const colorRail = document.querySelector(".color-rail");
 const colorTrigger = document.querySelectorAll(".color-trigger");
 const tableSidebar = document.querySelector(".table-list-sidebar");
+const sidebarShow = document.querySelector(".sidebar-trigger");
 const sidebarHide = document.querySelector(".sidebar-display");
 
-railContainer.addEventListener("click", ( e ) => {
+pickerTrigger.addEventListener("click", ( e ) => {
   $("#color-modal").modal("toggle");
 });
 
@@ -14,6 +15,12 @@ colorTrigger.forEach((item) => {
     e.preventDefault();
     colorRail.classList.toggle("orange");
   });
+});
+
+sidebarShow.addEventListener("click", ( e ) => {
+  e.preventDefault();
+
+  tableSidebar.classList.toggle("hide");
 });
 
 sidebarHide.addEventListener("click", ( e ) => {
