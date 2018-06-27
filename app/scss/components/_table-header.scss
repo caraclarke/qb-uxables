@@ -5,6 +5,15 @@
   th {
     text-transform: uppercase;
     font-size: 13px;
+
+    .checkbox-label {
+      padding: 0;
+      margin: 0 3px;
+
+      &:before {
+        background-color: #fff;
+      }
+    }
   }
 }
 
