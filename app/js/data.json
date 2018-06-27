@@ -1,259 +1,229 @@
 {
   "users": [
     {
-      "_id": "5b337c2dc953b92372bfda48",
+      "_id": "5b3386b27c4713cb7a618696",
       "index": 0,
       "checked": true,
-      "activityType": "Outbound",
-      "activityDate": "Monday, June 27, 2016 2:22 AM",
-      "customerName": "LYRIA",
+      "activityType": "Inbound",
+      "activityDate": "01/06/2018",
+      "customerName": "Acrodance",
       "scheduledFor": {
-        "first": "Wilkins",
-        "last": "Larsen"
+        "first": "Shelby",
+        "last": "Rogers"
       },
-      "duration": "55",
+      "duration": "21",
       "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "Monday, June 4, 2018 2:53 PM"
+      "scheduledStartTime": "April 30th 2018"
     },
     {
-      "_id": "5b337c2d441a972f5645bef2",
+      "_id": "5b3386b22e12b8d0ecab0a43",
       "index": 1,
-      "checked": true,
-      "activityType": "Outbound",
-      "activityDate": "Friday, January 5, 2018 12:51 PM",
-      "customerName": "BRAINQUIL",
+      "checked": false,
+      "activityType": "Inbound",
+      "activityDate": "06/19/2018",
+      "customerName": "Zorromop",
       "scheduledFor": {
-        "first": "Shepard",
-        "last": "Haynes"
+        "first": "Tucker",
+        "last": "Preston"
       },
-      "duration": "55",
+      "duration": "52",
       "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "Thursday, January 19, 2017 10:50 AM"
+      "scheduledStartTime": "May 1st 2018"
     },
     {
-      "_id": "5b337c2dcf11c0c42184efde",
+      "_id": "5b3386b2b33cfe5c012ab00f",
       "index": 2,
       "checked": false,
       "activityType": "Inbound",
-      "activityDate": "Saturday, June 6, 2015 12:35 PM",
-      "customerName": "OTHERWAY",
+      "activityDate": "05/29/2018",
+      "customerName": "Amtas",
       "scheduledFor": {
-        "first": "Letha",
-        "last": "Casey"
+        "first": "Manuela",
+        "last": "Moss"
       },
-      "duration": "55",
-      "scheduledStatus": "Scheduled",
-      "scheduledStartTime": "Friday, August 21, 2015 1:48 PM"
+      "duration": 54,
+      "scheduledStatus": "Unscheduled",
+      "scheduledStartTime": "April 19th 2018"
     },
     {
-      "_id": "5b337c2ddec860e93b0654f0",
+      "_id": "5b3386b22417e8b74e86f1f4",
       "index": 3,
       "checked": true,
       "activityType": "Inbound",
-      "activityDate": "Friday, September 23, 2016 7:36 PM",
-      "customerName": "CUIZINE",
+      "activityDate": "01/07/2018",
+      "customerName": "Zilidium",
       "scheduledFor": {
-        "first": "Barron",
-        "last": "Dale"
+        "first": "Richardson",
+        "last": "Melendez"
       },
-      "duration": "55",
+      "duration": "5",
       "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "Monday, July 17, 2017 5:42 PM"
+      "scheduledStartTime": "March 3rd 2018"
     },
     {
-      "_id": "5b337c2dd7befd8868126edc",
+      "_id": "5b3386b2909507128af46d67",
       "index": 4,
-      "checked": false,
+      "checked": true,
       "activityType": "Outbound",
-      "activityDate": "Sunday, October 30, 2016 11:01 AM",
-      "customerName": "QUANTALIA",
+      "activityDate": "01/14/2018",
+      "customerName": "Interfind",
       "scheduledFor": {
-        "first": "Burks",
-        "last": "Lynn"
+        "first": "Willis",
+        "last": "Jordan"
       },
-      "duration": "55",
+      "duration": "19",
       "scheduledStatus": "Scheduled",
-      "scheduledStartTime": "Friday, October 7, 2016 2:55 PM"
+      "scheduledStartTime": "May 20th 2018"
     },
     {
-      "_id": "5b337c2df4998e814ea27a3f",
+      "_id": "5b3386b20ccd6594f7396969",
       "index": 5,
       "checked": false,
-      "activityType": "Outbound",
-      "activityDate": "Tuesday, March 25, 2014 7:56 AM",
-      "customerName": "EARTHWAX",
+      "activityType": "Inbound",
+      "activityDate": "04/02/2018",
+      "customerName": "Bittor",
       "scheduledFor": {
-        "first": "Rhodes",
-        "last": "Good"
+        "first": "Barron",
+        "last": "Peck"
       },
-      "duration": "55",
+      "duration": "14",
       "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "Thursday, March 5, 2015 7:17 PM"
+      "scheduledStartTime": "May 19th 2018"
     },
     {
-      "_id": "5b337c2dc14978a338000f45",
+      "_id": "5b3386b20d32cee75a957e31",
       "index": 6,
-      "checked": false,
+      "checked": true,
       "activityType": "Outbound",
-      "activityDate": "Monday, January 13, 2014 7:32 PM",
-      "customerName": "OPTICOM",
+      "activityDate": "06/04/2018",
+      "customerName": "Dentrex",
       "scheduledFor": {
-        "first": "Donna",
-        "last": "Lindsey"
+        "first": "Vargas",
+        "last": "Stanley"
       },
-      "duration": "55",
+      "duration": "18",
       "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "Monday, September 7, 2015 4:19 PM"
+      "scheduledStartTime": "January 9th 2018"
     },
     {
-      "_id": "5b337c2dc39c5eb652cc792e",
+      "_id": "5b3386b2afc18c403fa92f6d",
       "index": 7,
       "checked": true,
-      "activityType": "Inbound",
-      "activityDate": "Wednesday, July 12, 2017 3:59 PM",
-      "customerName": "DIGITALUS",
+      "activityType": "Outbound",
+      "activityDate": "01/07/2018",
+      "customerName": "Ziggles",
       "scheduledFor": {
-        "first": "Mallory",
-        "last": "Pittman"
+        "first": "Head",
+        "last": "Hendrix"
       },
-      "duration": "55",
+      "duration": "26",
       "scheduledStatus": "Scheduled",
-      "scheduledStartTime": "Friday, December 30, 2016 12:05 PM"
+      "scheduledStartTime": "February 10th 2018"
     },
     {
-      "_id": "5b337c2d0c7549665cae5aec",
+      "_id": "5b3386b2c8b499e7ae4047d5",
       "index": 8,
-      "checked": true,
-      "activityType": "Outbound",
-      "activityDate": "Sunday, November 8, 2015 8:59 AM",
-      "customerName": "NIMON",
-      "scheduledFor": {
-        "first": "Howard",
-        "last": "Garza"
-      },
-      "duration": "55",
-      "scheduledStatus": "Scheduled",
-      "scheduledStartTime": "Saturday, March 10, 2018 3:04 PM"
-    },
-    {
-      "_id": "5b337c2d52531d8c55823612",
-      "index": 9,
-      "checked": true,
-      "activityType": "Outbound",
-      "activityDate": "Monday, November 9, 2015 8:13 PM",
-      "customerName": "JUNIPOOR",
-      "scheduledFor": {
-        "first": "Dudley",
-        "last": "Villarreal"
-      },
-      "duration": "55",
-      "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "Thursday, November 17, 2016 3:25 AM"
-    },
-    {
-      "_id": "5b337c2d6875f78689633391",
-      "index": 10,
-      "checked": true,
-      "activityType": "Inbound",
-      "activityDate": "Monday, August 31, 2015 9:40 AM",
-      "customerName": "TELEPARK",
-      "scheduledFor": {
-        "first": "Patton",
-        "last": "Hull"
-      },
-      "duration": "55",
-      "scheduledStatus": "Scheduled",
-      "scheduledStartTime": "Saturday, September 26, 2015 1:13 AM"
-    },
-    {
-      "_id": "5b337c2da9184760c789c7a3",
-      "index": 11,
       "checked": false,
       "activityType": "Outbound",
-      "activityDate": "Saturday, August 27, 2016 2:24 AM",
-      "customerName": "ANIVET",
+      "activityDate": "02/15/2018",
+      "customerName": "Blurrybus",
       "scheduledFor": {
-        "first": "Huber",
-        "last": "Norton"
+        "first": "Riley",
+        "last": "Thomas"
       },
-      "duration": "55",
-      "scheduledStatus": "Scheduled",
-      "scheduledStartTime": "Tuesday, August 26, 2014 7:32 PM"
+      "duration": 14,
+      "scheduledStatus": "Unscheduled",
+      "scheduledStartTime": "May 26th 2018"
     },
     {
-      "_id": "5b337c2d51dff3daf955385f",
+      "_id": "5b3386b23e8ae15d03d87105",
+      "index": 9,
+      "checked": false,
+      "activityType": "Outbound",
+      "activityDate": "04/10/2018",
+      "customerName": "Renovize",
+      "scheduledFor": {
+        "first": "Nettie",
+        "last": "Duran"
+      },
+      "duration": "58",
+      "scheduledStatus": "Unscheduled",
+      "scheduledStartTime": "June 7th 2018"
+    },
+    {
+      "_id": "5b3386b2606ed3807ef1b887",
+      "index": 10,
+      "checked": false,
+      "activityType": "Outbound",
+      "activityDate": "05/29/2018",
+      "customerName": "Geekology",
+      "scheduledFor": {
+        "first": "Rosalyn",
+        "last": "Richard"
+      },
+      "duration": "7",
+      "scheduledStatus": "Unscheduled",
+      "scheduledStartTime": "February 25th 2018"
+    },
+    {
+      "_id": "5b3386b24403107ec9c10c00",
+      "index": 11,
+      "checked": false,
+      "activityType": "Inbound",
+      "activityDate": "06/03/2018",
+      "customerName": "Hopeli",
+      "scheduledFor": {
+        "first": "Mitzi",
+        "last": "Blackwell"
+      },
+      "duration": "25",
+      "scheduledStatus": "Unscheduled",
+      "scheduledStartTime": "January 25th 2018"
+    },
+    {
+      "_id": "5b3386b2d5a5431564e58847",
       "index": 12,
       "checked": false,
       "activityType": "Outbound",
-      "activityDate": "Saturday, July 29, 2017 8:11 AM",
-      "customerName": "FUELWORKS",
+      "activityDate": "06/01/2018",
+      "customerName": "Fanfare",
       "scheduledFor": {
-        "first": "Lula",
-        "last": "Cline"
+        "first": "Reba",
+        "last": "Weaver"
       },
-      "duration": "55",
-      "scheduledStatus": "Scheduled",
-      "scheduledStartTime": "Tuesday, March 11, 2014 2:44 PM"
-    },
-    {
-      "_id": "5b337c2d103c2a9022fc9a38",
-      "index": 13,
-      "checked": true,
-      "activityType": "Outbound",
-      "activityDate": "Friday, April 17, 2015 2:23 AM",
-      "customerName": "HONOTRON",
-      "scheduledFor": {
-        "first": "Williams",
-        "last": "Herring"
-      },
-      "duration": "55",
+      "duration": "39",
       "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "Monday, May 1, 2017 9:55 PM"
+      "scheduledStartTime": "May 9th 2018"
     },
     {
-      "_id": "5b337c2ddce766061678e9a1",
-      "index": 14,
+      "_id": "5b3386b2faed8036fe726152",
+      "index": 13,
       "checked": false,
       "activityType": "Inbound",
-      "activityDate": "Friday, December 25, 2015 5:41 AM",
-      "customerName": "MOMENTIA",
+      "activityDate": "05/08/2018",
+      "customerName": "Limozen",
       "scheduledFor": {
-        "first": "Ingrid",
-        "last": "Rhodes"
+        "first": "Barker",
+        "last": "Mann"
       },
-      "duration": "55",
+      "duration": "45",
       "scheduledStatus": "Scheduled",
-      "scheduledStartTime": "Tuesday, August 9, 2016 2:47 PM"
+      "scheduledStartTime": "May 21st 2018"
     },
     {
-      "_id": "5b337c2df6a183e69409fd21",
-      "index": 15,
+      "_id": "5b3386b232dc3fd6520b44f3",
+      "index": 14,
       "checked": true,
-      "activityType": "Inbound",
-      "activityDate": "Thursday, July 24, 2014 4:45 AM",
-      "customerName": "PROWASTE",
+      "activityType": "Outbound",
+      "activityDate": "04/11/2018",
+      "customerName": "Neurocell",
       "scheduledFor": {
-        "first": "Santana",
-        "last": "Avery"
+        "first": "Tricia",
+        "last": "Lindsay"
       },
-      "duration": "55",
+      "duration": "43",
       "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "Sunday, October 22, 2017 9:47 PM"
-    },
-    {
-      "_id": "5b337c2dcf558aabf63011f4",
-      "index": 16,
-      "checked": true,
-      "activityType": "Inbound",
-      "activityDate": "Saturday, October 14, 2017 12:42 AM",
-      "customerName": "ZAGGLES",
-      "scheduledFor": {
-        "first": "Tammie",
-        "last": "Wilson"
-      },
-      "duration": "55",
-      "scheduledStatus": "Scheduled",
-      "scheduledStartTime": "Tuesday, February 7, 2017 5:12 PM"
-    } 
+      "scheduledStartTime": "January 14th 2018"
+    }
   ]
 }
