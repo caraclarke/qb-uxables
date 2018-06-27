@@ -1,0 +1,19 @@
+.sass-cache/
+logs/*
+!.gitkeep
+node_modules/
+bower_components/
+tmp
+.DS_Store
+.idea
+npm-debug.log
+snapshots/*
+!app/vendor/*/dist/
+
+# ignore files moved incorrectly on error #
+app/*.ejs
+
+build/*
+dist/*
+
+notes.md
