@@ -5,17 +5,28 @@
   &.orange {
     background-color: $orange;
   }
+
+  .icons-list {
+    padding: 0 8px;
+    margin: 0;
+    text-align: center;
+    padding-top: 60px;
+    list-style-type: none;
+
+    li {
+      padding-top: 20px;
+      padding-bottom: 20px;
+
+      &.bell {
+        border-bottom: 1px solid #fff;
+      }
+    }
+  }
 }
 
 .table-list-sidebar {
-  background-color: #F7F7F8;
-  height: 100%;
-  padding: 20px 20px 5px 10px;
-
-  .table-list {
-    list-style-type: none;
-    padding-left: 0;
-  }
+  height: 1147px;
+  max-height: 1148px;
 }
 
 .picker-container {
