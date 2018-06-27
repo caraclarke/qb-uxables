@@ -57,7 +57,7 @@ if (colorRail) {
   });
 }
 
-if (tableRow) {
+if (topRow) {
   tableRow.forEach(function (item) {
     item.addEventListener("click", function (e) {
       e.preventDefault();
