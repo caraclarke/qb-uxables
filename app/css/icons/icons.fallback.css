@@ -1,3 +1,7 @@
 .icon--coffee {
   background-image: url("png/coffee.png");
   background-repeat: no-repeat; }
+
+.icon--left-rail {
+  background-image: url("png/left-rail.png");
+  background-repeat: no-repeat; }

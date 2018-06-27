@@ -32,8 +32,19 @@
 
     <!-- table -->
     <div class="col-xs-12">
-      
-<table class="table">
+      <div class="row">
+  <div class="col-xs-1 table-sidebar">
+    <div class="col-xs-12 rail-container">
+  <!-- <span class="icon icon--left-rail"></span> -->
+  <img src="../img/green-rail.svg" class="green-rail rail" />
+  <img src="../img/orange-rail.svg" class="orange-rail rail hide" />
+</div>
+ 
+  </div>
+
+  <div class="col-xs-11 table-table">
+    
+    <table class="table">
   <thead class="table-header">
     <tr>
       <th scope="col">
@@ -520,10 +531,23 @@
 <div class="col-xs-12 act-number">
   <p>25 activities</p>
 </div>
-   
+ 
+  </div>
+</div>  
     </div> 
   </div>
 </section>
+
+<div class="modal" tabindex="-1" role="dialog" id="color-modal">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="green-trigger btn">if you click me itll be green</button>
+        <button type="button" class="orange-trigger btn">if you click me itll be orange</button>
+      </div>
+    </div>
+  </div>
+</div> 
 
   </div>
 

@@ -7,7 +7,7 @@
   CCOMPONENTS
 ****************************/
 @import "components/checkbox";
-@import "components/table-header";
+@import "components/table";
 
 /***************************
   RULES
@@ -28,4 +28,14 @@
   &.right {
     float: right;
   }
+}
+
+.hide {
+  display: none;
+  visibility: hidden;
+}
+
+.show {
+  display: block;
+  visibility: visible;
 }

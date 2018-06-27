@@ -1,2 +1,10 @@
-<% var tableData= data.users; %>
-<% include ../components/_table-homepage %> 
+<div class="row">
+  <div class="col-xs-1 table-sidebar">
+    <% include ../components/_table-sidebar %> 
+  </div>
+
+  <div class="col-xs-11 table-table">
+    <% var tableData= data.users; %>
+    <% include ../components/_table-homepage %> 
+  </div>
+</div>
