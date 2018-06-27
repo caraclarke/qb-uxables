@@ -9,6 +9,11 @@ const newRowChild = document.querySelector(".new-row");
 const minusButton = document.querySelector(".minus");
 const rowButtons = document.querySelector(".add-btns");
 
+const forward = document.querySelector("#speed");
+const back = document.querySelector("#negative");
+const videos = document.querySelectorAll(".video");
+let rewindVideo;
+
 // updated stuffs
 const colorPickerClick = document.querySelector(".color-picker-img");
 const close = document.querySelector(".close-modal");
@@ -26,35 +31,37 @@ const keypressListen = ( e ) => {
   }
 }
 
-tableRow.addEventListener("focus", ( e ) => {
-  $('[data-toggle="popover"]').popover();
-  e.target.addEventListener("keypress", keypressListen);
-});
+// tableRow.addEventListener("focus", ( e ) => {
+//   $('[data-toggle="popover"]').popover();
+//   e.target.addEventListener("keypress", keypressListen);
+// });
 
-tableRow.addEventListener("click", ( e ) => {
-  e.preventDefault();
+// tableRow.addEventListener("click", ( e ) => {
+//   e.preventDefault();
 
-  rowButtons.classList.toggle("hide");
-});
+//   rowButtons.classList.toggle("hide");
+// });
 
-minusButton.addEventListener("click", ( e ) => {
-  e.preventDefault();
-  addRow();
-})
+// minusButton.addEventListener("click", ( e ) => {
+//   e.preventDefault();
+//   addRow();
+// })
 
-sidebarShow.addEventListener("click", ( e ) => {
-  e.preventDefault();
+// sidebarShow.addEventListener("click", ( e ) => {
+//   e.preventDefault();
 
-  tableSidebar.classList.toggle("display");
-});
+//   tableSidebar.classList.toggle("display");
+// });
 
-sidebarHide.addEventListener("click", ( e ) => {
-  e.preventDefault();
+// sidebarHide.addEventListener("click", ( e ) => {
+//   e.preventDefault();
 
-  tableSidebar.classList.toggle("display");
-});
+//   tableSidebar.classList.toggle("display");
+// });
 
 // stuff
+
+if ( pickerTrigger ) {
 
 pickerTrigger.addEventListener("click", ( e ) => {
   $("#color-modal").modal("toggle");
@@ -67,3 +74,38 @@ close.addEventListener("click", ( e ) => {
 colorPickerClick.addEventListener("click", ( e ) => {
   colorRail.classList.toggle("orange");
 });
+}
+
+// video stuff
+if ( videos ) {
+  const reset = ( element ) => {
+    element.pause();
+    element.currentTime = 0;
+  };
+
+  const play = (element) => {
+    element.play();
+  };
+
+  const back = ( element ) => {
+    intervalRewind = setInterval(function(){
+       element.playbackRate = 1.0;
+       if(element.currentTime == 0) {
+         clearInterval(intervalRewind);
+         element.pause();
+       } else {
+        element.currentTime -= 0.05;
+       }
+      }, 3);
+  };
+
+  videos.forEach((item) => {
+    item.addEventListener("mouseenter", ( e ) => {
+      play(item);
+    });
+
+    item.addEventListener("mouseleave", ( e ) => {
+      back(item);
+    });
+  });
+}

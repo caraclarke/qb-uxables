@@ -235,3 +235,6 @@
 .color-picker-img {
   max-height: 240px;
   width: auto; }
+
+.videos {
+  cursor: pointer; }
