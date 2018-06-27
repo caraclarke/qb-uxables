@@ -4,6 +4,7 @@ const colorTrigger = document.querySelectorAll(".color-trigger");
 const tableSidebar = document.querySelector(".table-list-sidebar");
 const sidebarShow = document.querySelector(".sidebar-trigger");
 const sidebarHide = document.querySelector(".sidebar-display");
+
 // const tableRow = document.querySelector(".table-row:nth-of-type(1)");
 const topRowChild = document.querySelector(".top-new-row");
 const bottomRowChild = document.querySelector(".bottom-new-row");
@@ -42,16 +43,16 @@ const close = document.querySelector(".close-modal");
 
 if ( colorRail ) {
   sidebarShow.addEventListener("click", ( e ) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  tableSidebar.classList.toggle("display");
-});
+    tableSidebar.classList.toggle("display");
+  });
 
-sidebarHide.addEventListener("click", ( e ) => {
-  e.preventDefault();
+  sidebarHide.addEventListener("click", ( e ) => {
+    e.preventDefault();
 
-  tableSidebar.classList.toggle("display");
-});
+    tableSidebar.classList.toggle("display");
+  });
 }
 
 if ( tableRow ) {
@@ -71,6 +72,7 @@ if ( tableRow ) {
     bottomRowChild.classList.remove("hide");
   });
 }
+
 // tableRow.addEventListener("focus", ( e ) => {
 //   $('[data-toggle="popover"]').popover();
 //   e.target.addEventListener("keypress", keypressListen);
@@ -90,37 +92,35 @@ if ( tableRow ) {
 // stuff
 
 if ( pickerTrigger ) {
+  pickerTrigger.addEventListener("click", ( e ) => {
+    $("#color-modal").modal("toggle");
+  });
 
-pickerTrigger.addEventListener("click", ( e ) => {
-  $("#color-modal").modal("toggle");
-});
+  close.addEventListener("click", ( e ) => {
+    $("#color-modal").modal("toggle");
+  });
 
-close.addEventListener("click", ( e ) => {
-  $("#color-modal").modal("toggle");
-});
-
-colorPickerClick.addEventListener("click", ( e ) => {
-  colorRail.classList.toggle("orange");
-});
+  colorPickerClick.addEventListener("click", ( e ) => {
+    colorRail.classList.toggle("orange");
+  });
 }
 
 // video stuff
 if ( videos ) {
-
   const play = (element) => {
     element.play();
   };
 
   const rewind = ( element ) => {
-    intervalRewind = setInterval(function(){
-       element.playbackRate = 1.0;
-       if(element.currentTime == 0) {
-         clearInterval(intervalRewind);
-         element.pause();
-       } else {
+    intervalRewind = setInterval(() => {
+      element.playbackRate = 1.0;
+      if (element.currentTime == 0) {
+        clearInterval(intervalRewind);
+        element.pause();
+      } else {
         element.currentTime -= 0.05;
-       }
-      }, 3);
+      }
+    }, 3);
   };
 
   videos.forEach((item) => {

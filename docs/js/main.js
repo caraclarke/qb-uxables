@@ -6,6 +6,7 @@ var colorTrigger = document.querySelectorAll(".color-trigger");
 var tableSidebar = document.querySelector(".table-list-sidebar");
 var sidebarShow = document.querySelector(".sidebar-trigger");
 var sidebarHide = document.querySelector(".sidebar-display");
+
 // const tableRow = document.querySelector(".table-row:nth-of-type(1)");
 var topRowChild = document.querySelector(".top-new-row");
 var bottomRowChild = document.querySelector(".bottom-new-row");
@@ -73,6 +74,7 @@ if (tableRow) {
     bottomRowChild.classList.remove("hide");
   });
 }
+
 // tableRow.addEventListener("focus", ( e ) => {
 //   $('[data-toggle="popover"]').popover();
 //   e.target.addEventListener("keypress", keypressListen);
@@ -92,7 +94,6 @@ if (tableRow) {
 // stuff
 
 if (pickerTrigger) {
-
   pickerTrigger.addEventListener("click", function (e) {
     $("#color-modal").modal("toggle");
   });
@@ -108,7 +109,6 @@ if (pickerTrigger) {
 
 // video stuff
 if (videos) {
-
   var play = function play(element) {
     element.play();
   };
