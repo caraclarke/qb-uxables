@@ -1,3 +1,3 @@
-# Cara Clarke FE Project Quick Start
+# Hackathon "UXables" Project
 
-This project is a front end quick start using [gulp](https://gulpjs.com/) and [ejs](https://github.com/tj/ejs).
+I'm putting the hack in hackathon
