@@ -1,26 +1,17 @@
 const pickerTrigger = document.querySelector(".picker-container");
 const colorRail = document.querySelector(".color-rail");
-const colorTrigger = document.querySelectorAll(".color-trigger");
 const tableSidebar = document.querySelector(".table-list-sidebar");
 const sidebarShow = document.querySelector(".sidebar-trigger");
 const sidebarHide = document.querySelector(".sidebar-display");
 
-// const tableRow = document.querySelector(".table-row:nth-of-type(1)");
+// rows
 const topRowChild = document.querySelector(".top-new-row");
 const bottomRowChild = document.querySelector(".bottom-new-row");
-const minusButton = document.querySelector(".minus");
-const rowButtons = document.querySelector(".add-btns");
-
-// rows
 const topRow = document.querySelector(".top-row");
 const bottomRow = document.querySelector(".bottom-row");
 const tableRow = document.querySelectorAll(".table-row");
-const topRowParent = document.querySelector(".top-row-container");
-const bottomRowParent = document.querySelector(".bottom-row-container");
 
 // videos
-const forward = document.querySelector("#speed");
-const back = document.querySelector("#negative");
 const videos = document.querySelectorAll(".video");
 let intervalRewind;
 
@@ -73,22 +64,6 @@ if ( topRow ) {
   });
 }
 
-// tableRow.addEventListener("focus", ( e ) => {
-//   $('[data-toggle="popover"]').popover();
-//   e.target.addEventListener("keypress", keypressListen);
-// });
-
-// tableRow.addEventListener("click", ( e ) => {
-//   e.preventDefault();
-
-//   rowButtons.classList.toggle("hide");
-// });
-
-// minusButton.addEventListener("click", ( e ) => {
-//   e.preventDefault();
-//   addRow();
-// })
-
 // stuff
 
 if ( pickerTrigger ) {
@@ -112,13 +87,14 @@ if ( videos ) {
   };
 
   const rewind = ( element ) => {
+    const el = element;
     intervalRewind = setInterval(() => {
-      element.playbackRate = 1.0;
-      if (element.currentTime == 0) {
+      el.playbackRate = 1.0;
+      if (el.currentTime === 0) {
         clearInterval(intervalRewind);
-        element.pause();
+        el.pause();
       } else {
-        element.currentTime -= 0.05;
+        el.currentTime -= 0.05;
       }
     }, 3);
   };
