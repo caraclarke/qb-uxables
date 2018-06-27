@@ -157,12 +157,16 @@
     .color-rail .icons-list li {
       padding-top: 20px;
       padding-bottom: 20px; }
+      .color-rail .icons-list li .sidebar-trigger {
+        background: none;
+        border: none;
+        cursor: pointer; }
       .color-rail .icons-list li.bell {
         border-bottom: 1px solid #fff; }
 
-.table-list-sidebar {
-  height: 1147px;
-  max-height: 1148px; }
+.table-list-sidebar .sidebar-display {
+  height: 1092px;
+  max-height: 1095px; }
 
 .picker-container {
   height: 100%; }
