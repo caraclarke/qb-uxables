@@ -107,6 +107,23 @@
 .act-number {
   margin-left: 15px; }
 
+.modal-backdrop {
+  background: none; }
+
+.modal-dialog {
+  margin: 0;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end; }
+
+.modal-content {
+  margin-bottom: 150px;
+  margin-left: 30px; }
+
 /***************************
   RULES
 ****************************/

@@ -1,0 +1,15 @@
+.modal-backdrop {
+   background: none;
+}
+
+.modal-dialog {
+  margin: 0;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.modal-content {
+  margin-bottom: 150px;
+  margin-left: 30px;
+}
