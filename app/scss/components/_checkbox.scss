@@ -7,7 +7,7 @@
   /*
 * https://webaim.org/techniques/css/invisiblecontent/#techniques
 * hiding the checkbox styles
-* border/margin/padding helps turn off any default browser padding 
+* border/margin/padding helps turn off any default browser padding
 * height/clip work as a backup in case positioning fails or isn't supported for some reason.
 */
   position: absolute;
@@ -22,33 +22,33 @@
   border: 0;
 
   /* hide the check by default */
-  & + label::after {
+  & + label:after {
     content: none;
   }
 
-  & + label::before {
+  & + label:before {
     background-size: 0% 0%;
     transition: background-size 0.05s ease-in-out;
   }
 
-  unhide the checkmark on the checked state
-  &:checked + label::after {
+  // unhide the checkmark on the checked state
+  &:checked + label:after {
     content: '';
   }
 
-  &:checked + label::before {
-    border: 1px solid black;
+  &:checked + label:before {
+    border: 1px solid #1b99ff;
     transition: border 0.05s ease-in-out;
   }
 
-  &:checked + label::before {
+  &:checked + label:before {
     background-size: 100% 100%;
     transition: background-size 0.05s;
   }
 
   @media (-webkit-min-device-pixel-ratio: 0) {
-    &:focus + label::before,
-    &:active + label::before {
+    &:focus + label:before,
+    &:active + label:before {
       outline-color: -webkit-focus-ring-color;
       outline-style: auto;
     }
@@ -61,31 +61,8 @@
   cursor: pointer;
   margin-left: 2px;
 
-  &::after {
+  &:after {
     position: absolute;
-  }
-
-  &::before {
-    content: '';
-    position: relative;
-    margin-right: 6px;
-    top: 4px;
-    left: 0;
-    background-position: 50% 50%;
-    background-image: linear-gradient(
-      #1b99ff,
-      #1b99ff
-    );
-    background-repeat: no-repeat;
-    background-size: 0% 0%;
-    display: inline-block;
-    height: 16px;
-    width: 16px;
-    border-radius: 2px;
-    border: 1px solid black;
-  }
-
-  &::after {
     content: '';
     left: 2px;
     top: 8px;
@@ -93,5 +70,22 @@
     height: 9px;
     width: 13px;
     background-image: url('../img/white-check.svg');
+  }
+
+  &:before {
+    content: '';
+    position: relative;
+    margin-right: 6px;
+    top: 4px;
+    left: 0;
+    background-position: 50% 50%;
+    background-image: linear-gradient(#1b99ff, #1b99ff);
+    background-repeat: no-repeat;
+    background-size: 0% 0%;
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    border-radius: 2px;
+    border: 1px solid grey;
   }
 }
