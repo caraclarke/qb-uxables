@@ -4,11 +4,20 @@ const colorTrigger = document.querySelectorAll(".color-trigger");
 const tableSidebar = document.querySelector(".table-list-sidebar");
 const sidebarShow = document.querySelector(".sidebar-trigger");
 const sidebarHide = document.querySelector(".sidebar-display");
-const tableRow = document.querySelector(".table-row:nth-of-type(1)");
-const newRowChild = document.querySelector(".new-row");
+// const tableRow = document.querySelector(".table-row:nth-of-type(1)");
+const topRowChild = document.querySelector(".top-new-row");
+const bottomRowChild = document.querySelector(".bottom-new-row");
 const minusButton = document.querySelector(".minus");
 const rowButtons = document.querySelector(".add-btns");
 
+// rows
+const topRow = document.querySelector(".top-row");
+const bottomRow = document.querySelector(".bottom-row");
+const tableRow = document.querySelectorAll(".table-row");
+const topRowParent = document.querySelector(".top-row-container");
+const bottomRowParent = document.querySelector(".bottom-row-container");
+
+// videos
 const forward = document.querySelector("#speed");
 const back = document.querySelector("#negative");
 const videos = document.querySelectorAll(".video");
@@ -18,18 +27,18 @@ let intervalRewind;
 const colorPickerClick = document.querySelector(".color-picker-img");
 const close = document.querySelector(".close-modal");
 
-const addRow = () => {
-  tableRow.parentNode.prepend(newRowChild);
-  newRowChild.classList.remove("hide");
-};
+// const addRow = () => {
+//   tableRow.parentNode.prepend(newRowChild);
+//   newRowChild.classList.remove("hide");
+// };
 
-const keypressListen = ( e ) => {
-  // 61 for plus
-  if ( e.keyCode === 31 ) {
-    // minus
-    addRow();
-  }
-}
+// const keypressListen = ( e ) => {
+//   // 61 for plus
+//   if ( e.keyCode === 31 ) {
+//     // minus
+//     addRow();
+//   }
+// }
 
 if ( colorRail ) {
   sidebarShow.addEventListener("click", ( e ) => {
@@ -43,6 +52,24 @@ sidebarHide.addEventListener("click", ( e ) => {
 
   tableSidebar.classList.toggle("display");
 });
+}
+
+if ( tableRow ) {
+  tableRow.forEach((item) => {
+    item.addEventListener("click", ( e ) => {
+      e.preventDefault();
+
+      $("#row-modal").modal("toggle");
+    });
+  });
+
+  topRow.addEventListener("click", ( e ) => {
+    topRowChild.classList.remove("hide");
+  });
+
+  bottomRow.addEventListener("click", ( e ) => {
+    bottomRowChild.classList.remove("hide");
+  });
 }
 // tableRow.addEventListener("focus", ( e ) => {
 //   $('[data-toggle="popover"]').popover();
