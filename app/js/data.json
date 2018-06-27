@@ -1,259 +1,225 @@
 {
   "users": [
     {
-      "_id": "5b3386b27c4713cb7a618696",
       "index": 0,
-      "checkbox": {
-        "checked": false
-      },
       "activityType": "Inbound",
-      "activityDate": "01/06/2018",
-      "customerName": "Acrodance",
+      "activityDate": "01/29/2018",
+      "customerName": "Ecraze",
       "scheduledFor": {
-        "first": "Shelby",
-        "last": "Rogers"
+        "first": "Mayer",
+        "last": "Holder"
       },
-      "duration": "21",
-      "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "April 30, 2018"
-    },
-    {
-      "_id": "5b3386b22e12b8d0ecab0a43",
-      "index": 1,
       "checkbox": {
-        "checked": false
-      },
-      "activityType": "Inbound",
-      "activityDate": "06/19/2018",
-      "customerName": "Zorromop",
-      "scheduledFor": {
-        "first": "Tucker",
-        "last": "Preston"
-      },
-      "duration": "52",
-      "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "May 1st, 2018"
-    },
-    {
-      "_id": "5b3386b2b33cfe5c012ab00f",
-      "index": 2,
-      "checkbox": {
-        "checked": false
-      },
-      "activityType": "Inbound",
-      "activityDate": "05/29/2018",
-      "customerName": "Amtas",
-      "scheduledFor": {
-        "first": "Manuela",
-        "last": "Moss"
-      },
-      "duration": 54,
-      "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "April 19, 2018"
-    },
-    {
-      "_id": "5b3386b22417e8b74e86f1f4",
-      "index": 3,
-      "checkbox": {
-        "checked": false
-      },
-      "activityType": "Inbound",
-      "activityDate": "01/07/2018",
-      "customerName": "Zilidium",
-      "scheduledFor": {
-        "first": "Richardson",
-        "last": "Melendez"
-      },
-      "duration": "5",
-      "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "March 3rd, 2018"
-    },
-    {
-      "_id": "5b3386b2909507128af46d67",
-      "index": 4,
-      "checkbox": {
-        "checked": false
-      },
-      "activityType": "Outbound",
-      "activityDate": "01/14/2018",
-      "customerName": "Interfind",
-      "scheduledFor": {
-        "first": "Willis",
-        "last": "Jordan"
-      },
-      "duration": "19",
-      "scheduledStatus": "Scheduled",
-      "scheduledStartTime": "May 20, 2018"
-    },
-    {
-      "_id": "5b3386b20ccd6594f7396969",
-      "index": 5,
-      "checkbox": {
-        "checked": false
-      },
-      "activityType": "Inbound",
-      "activityDate": "04/02/2018",
-      "customerName": "Bittor",
-      "scheduledFor": {
-        "first": "Barron",
-        "last": "Peck"
-      },
-      "duration": "14",
-      "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "May 19, 2018"
-    },
-    {
-      "_id": "5b3386b20d32cee75a957e31",
-      "index": 6,
-      "checkbox": {
-        "checked": false
-      },
-      "activityType": "Outbound",
-      "activityDate": "06/04/2018",
-      "customerName": "Dentrex",
-      "scheduledFor": {
-        "first": "Vargas",
-        "last": "Stanley"
-      },
-      "duration": "18",
-      "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "January 9, 2018"
-    },
-    {
-      "_id": "5b3386b2afc18c403fa92f6d",
-      "index": 7,
-      "checkbox": {
-        "checked": false
-      },
-      "activityType": "Outbound",
-      "activityDate": "01/07/2018",
-      "customerName": "Ziggles",
-      "scheduledFor": {
-        "first": "Head",
-        "last": "Hendrix"
-      },
-      "duration": "26",
-      "scheduledStatus": "Scheduled",
-      "scheduledStartTime": "February 10, 2018"
-    },
-    {
-      "_id": "5b3386b2c8b499e7ae4047d5",
-      "index": 8,
-      "checkbox": {
-        "checked": false
-      },
-      "activityType": "Outbound",
-      "activityDate": "02/15/2018",
-      "customerName": "Blurrybus",
-      "scheduledFor": {
-        "first": "Riley",
-        "last": "Thomas"
-      },
-      "duration": 14,
-      "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "May 26, 2018"
-    },
-    {
-      "_id": "5b3386b23e8ae15d03d87105",
-      "index": 9,
-      "checkbox": {
-        "checked": false
-      },
-      "activityType": "Outbound",
-      "activityDate": "04/10/2018",
-      "customerName": "Renovize",
-      "scheduledFor": {
-        "first": "Nettie",
-        "last": "Duran"
+        "id": "5b3394c289d344fd0cf3d88f",
+        "checked": true
       },
       "duration": "58",
       "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "June 7, 2018"
+      "scheduledStartTime": "April 24, 2018"
     },
     {
-      "_id": "5b3386b2606ed3807ef1b887",
-      "index": 10,
-      "checkbox": {
-        "checked": false
-      },
+      "index": 1,
       "activityType": "Outbound",
-      "activityDate": "05/29/2018",
-      "customerName": "Geekology",
+      "activityDate": "01/15/2018",
+      "customerName": "Comvoy",
       "scheduledFor": {
-        "first": "Rosalyn",
-        "last": "Richard"
+        "first": "Mona",
+        "last": "Nelson"
       },
-      "duration": "7",
-      "scheduledStatus": "Cancelled",
-      "scheduledStartTime": "n/a"
-    },
-    {
-      "_id": "5b3386b24403107ec9c10c00",
-      "index": 11,
       "checkbox": {
-        "checked": false
+        "id": "5b3394c274fc0070e53da1ab",
+        "checked": true
       },
-      "activityType": "Inbound",
-      "activityDate": "06/03/2018",
-      "customerName": "Hopeli",
-      "scheduledFor": {
-        "first": "Mitzi",
-        "last": "Blackwell"
-      },
-      "duration": "25",
+      "duration": "57",
       "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "January 25, 2018"
+      "scheduledStartTime": "April 27, 2018"
     },
     {
-      "_id": "5b3386b2d5a5431564e58847",
-      "index": 12,
+      "index": 2,
+      "activityType": "Outbound",
+      "activityDate": "04/09/2018",
+      "customerName": "Brainclip",
+      "scheduledFor": {
+        "first": "Shana",
+        "last": "Albert"
+      },
       "checkbox": {
+        "id": "5b3394c2b2c4950e07350271",
         "checked": false
       },
+      "duration": "40",
+      "scheduledStatus": "Unscheduled",
+      "scheduledStartTime": "January 21, 2018"
+    },
+    {
+      "index": 3,
       "activityType": "Outbound",
-      "activityDate": "06/01/2018",
-      "customerName": "Fanfare",
+      "activityDate": "04/27/2018",
+      "customerName": "Tellifly",
       "scheduledFor": {
-        "first": "Reba",
-        "last": "Weaver"
+        "first": "Mallory",
+        "last": "Mcintosh"
+      },
+      "checkbox": {
+        "id": "5b3394c2996a32b6d9a90fef",
+        "checked": false
+      },
+      "duration": "35",
+      "scheduledStatus": "Scheduled",
+      "scheduledStartTime": "May 1, 2018"
+    },
+    {
+      "index": 4,
+      "activityType": "Inbound",
+      "activityDate": "02/27/2018",
+      "customerName": "Zentia",
+      "scheduledFor": {
+        "first": "Patsy",
+        "last": "Nolan"
+      },
+      "checkbox": {
+        "id": "5b3394c24beba28d2ac92a78",
+        "checked": false
+      },
+      "duration": "4",
+      "scheduledStatus": "Scheduled",
+      "scheduledStartTime": "April 22, 2018"
+    },
+    {
+      "index": 5,
+      "activityType": "Outbound",
+      "activityDate": "02/26/2018",
+      "customerName": "Tropolis",
+      "scheduledFor": {
+        "first": "Angie",
+        "last": "Perkins"
+      },
+      "checkbox": {
+        "id": "5b3394c2400cfe0134a95f21",
+        "checked": true
+      },
+      "duration": "18",
+      "scheduledStatus": "Unscheduled",
+      "scheduledStartTime": "June 9, 2018"
+    },
+    {
+      "index": 6,
+      "activityType": "Inbound",
+      "activityDate": "03/12/2018",
+      "customerName": "Biolive",
+      "scheduledFor": {
+        "first": "Vickie",
+        "last": "Kelley"
+      },
+      "checkbox": {
+        "id": "5b3394c220c2db032adf5d6e",
+        "checked": true
+      },
+      "duration": 30,
+      "scheduledStatus": "Unscheduled",
+      "scheduledStartTime": "May 8, 2018"
+    },
+    {
+      "index": 7,
+      "activityType": "Outbound",
+      "activityDate": "04/20/2018",
+      "customerName": "Dreamia",
+      "scheduledFor": {
+        "first": "Claudette",
+        "last": "Hull"
+      },
+      "checkbox": {
+        "id": "5b3394c28b4f4b54b14e2842",
+        "checked": false
       },
       "duration": "39",
       "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "May 9, 2018"
+      "scheduledStartTime": "April 18, 2018"
     },
     {
-      "_id": "5b3386b2faed8036fe726152",
-      "index": 13,
-      "checkbox": {
-        "checked": false
-      },
-      "activityType": "Inbound",
-      "activityDate": "05/08/2018",
-      "customerName": "Limozen",
-      "scheduledFor": {
-        "first": "Barker",
-        "last": "Mann"
-      },
-      "duration": "45",
-      "scheduledStatus": "Cancelled",
-      "scheduledStartTime": "n/a"
-    },
-    {
-      "_id": "5b3386b232dc3fd6520b44f3",
-      "index": 14,
-      "checkbox": {
-        "checked": false
-      },
+      "index": 8,
       "activityType": "Outbound",
-      "activityDate": "04/11/2018",
-      "customerName": "Neurocell",
+      "activityDate": "02/27/2018",
+      "customerName": "Quotezart",
       "scheduledFor": {
-        "first": "Tricia",
-        "last": "Lindsay"
+        "first": "Sosa",
+        "last": "Douglas"
       },
-      "duration": "43",
+      "checkbox": {
+        "id": "5b3394c2b195e223399e106d",
+        "checked": true
+      },
+      "duration": "8",
+      "scheduledStatus": "Scheduled",
+      "scheduledStartTime": "May 30, 2018"
+    },
+    {
+      "index": 9,
+      "activityType": "Outbound",
+      "activityDate": "05/17/2018",
+      "customerName": "Waterbaby",
+      "scheduledFor": {
+        "first": "John",
+        "last": "Mccarthy"
+      },
+      "checkbox": {
+        "id": "5b3394c2aaba63f7433e3f1f",
+        "checked": false
+      },
+      "duration": "3",
       "scheduledStatus": "Unscheduled",
       "scheduledStartTime": "January 14, 2018"
+    },
+    {
+      "index": 10,
+      "activityType": "Outbound",
+      "activityDate": "02/27/2018",
+      "customerName": "Geekular",
+      "scheduledFor": {
+        "first": "Allison",
+        "last": "Clements"
+      },
+      "checkbox": {
+        "id": "5b3394c2794ae5c5ca228c06",
+        "checked": false
+      },
+      "duration": "43",
+      "scheduledStatus": "Scheduled",
+      "scheduledStartTime": "February 22, 2018"
+    },
+    {
+      "index": 11,
+      "activityType": "Outbound",
+      "activityDate": "05/20/2018",
+      "customerName": "Xoggle",
+      "scheduledFor": {
+        "first": "Mendez",
+        "last": "Gay"
+      },
+      "checkbox": {
+        "id": "5b3394c29482cc5441a6e9a9",
+        "checked": false
+      },
+      "duration": "10",
+      "scheduledStatus": "Unscheduled",
+      "scheduledStartTime": "March 15, 2018"
+    },
+    {
+      "index": 12,
+      "activityType": "Outbound",
+      "activityDate": "06/06/2018",
+      "customerName": "Namegen",
+      "scheduledFor": {
+        "first": "Madeleine",
+        "last": "Wyatt"
+      },
+      "checkbox": {
+        "id": "5b3394c2be5512db64455e14",
+        "checked": false
+      },
+      "duration": "41",
+      "scheduledStatus": "Scheduled",
+      "scheduledStartTime": "May 25, 2018"
     }
   ]
 }
