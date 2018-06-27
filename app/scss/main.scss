@@ -39,3 +39,23 @@
   display: block;
   visibility: visible;
 }
+
+.modal-content {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+
+  .close-modal {
+    position: relative;
+    top: 40px;
+    left: 120px;
+    opacity: 0;
+    padding: 200px;
+    cursor: pointer;
+  }
+}
+
+.color-picker-img {
+  max-height: 240px;
+  width: auto;
+}

@@ -9,6 +9,10 @@ const newRowChild = document.querySelector(".new-row");
 const minusButton = document.querySelector(".minus");
 const rowButtons = document.querySelector(".add-btns");
 
+// updated stuffs
+const colorPickerClick = document.querySelector(".color-picker-img");
+const close = document.querySelector(".close-modal");
+
 const addRow = () => {
   tableRow.parentNode.prepend(newRowChild);
   newRowChild.classList.remove("hide");
@@ -21,17 +25,6 @@ const keypressListen = ( e ) => {
     addRow();
   }
 }
-
-pickerTrigger.addEventListener("click", ( e ) => {
-  $("#color-modal").modal("toggle");
-});
-
-colorTrigger.forEach((item) => {
-  item.addEventListener("click", ( e ) => {
-    e.preventDefault();
-    colorRail.classList.toggle("orange");
-  });
-});
 
 tableRow.addEventListener("focus", ( e ) => {
   $('[data-toggle="popover"]').popover();
@@ -59,4 +52,18 @@ sidebarHide.addEventListener("click", ( e ) => {
   e.preventDefault();
 
   tableSidebar.classList.toggle("display");
+});
+
+// stuff
+
+pickerTrigger.addEventListener("click", ( e ) => {
+  $("#color-modal").modal("toggle");
+});
+
+close.addEventListener("click", ( e ) => {
+  $("#color-modal").modal("toggle");
+});
+
+colorPickerClick.addEventListener("click", ( e ) => {
+  colorRail.classList.toggle("orange");
 });

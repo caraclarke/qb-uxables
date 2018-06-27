@@ -11,6 +11,10 @@ var newRowChild = document.querySelector(".new-row");
 var minusButton = document.querySelector(".minus");
 var rowButtons = document.querySelector(".add-btns");
 
+// updated stuffs
+var colorPickerClick = document.querySelector(".color-picker-img");
+var close = document.querySelector(".close-modal");
+
 var addRow = function addRow() {
   tableRow.parentNode.prepend(newRowChild);
   newRowChild.classList.remove("hide");
@@ -23,17 +27,6 @@ var keypressListen = function keypressListen(e) {
     addRow();
   }
 };
-
-pickerTrigger.addEventListener("click", function (e) {
-  $("#color-modal").modal("toggle");
-});
-
-colorTrigger.forEach(function (item) {
-  item.addEventListener("click", function (e) {
-    e.preventDefault();
-    colorRail.classList.toggle("orange");
-  });
-});
 
 tableRow.addEventListener("focus", function (e) {
   $('[data-toggle="popover"]').popover();
@@ -61,4 +54,18 @@ sidebarHide.addEventListener("click", function (e) {
   e.preventDefault();
 
   tableSidebar.classList.toggle("display");
+});
+
+// stuff
+
+pickerTrigger.addEventListener("click", function (e) {
+  $("#color-modal").modal("toggle");
+});
+
+close.addEventListener("click", function (e) {
+  $("#color-modal").modal("toggle");
+});
+
+colorPickerClick.addEventListener("click", function (e) {
+  colorRail.classList.toggle("orange");
 });

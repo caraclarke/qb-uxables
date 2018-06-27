@@ -83,6 +83,9 @@
     bottom: 2px;
     font-size: 15px; }
 
+.picker-container {
+  height: 200px; }
+
 .panel-view {
   background-color: red; }
 
@@ -137,8 +140,8 @@
   align-items: flex-end; }
 
 .modal-content {
-  margin-bottom: 150px;
-  margin-left: 30px; }
+  margin-bottom: 80px;
+  margin-left: 0; }
   .modal-content .color-btn {
     width: 30px;
     height: 30px;
@@ -216,3 +219,19 @@
 .show {
   display: block;
   visibility: visible; }
+
+.modal-content {
+  background: transparent;
+  border: none;
+  cursor: pointer; }
+  .modal-content .close-modal {
+    position: relative;
+    top: 40px;
+    left: 120px;
+    opacity: 0;
+    padding: 200px;
+    cursor: pointer; }
+
+.color-picker-img {
+  max-height: 240px;
+  width: auto; }
