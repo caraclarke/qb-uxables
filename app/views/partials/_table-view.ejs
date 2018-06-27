@@ -3,7 +3,12 @@
     <% include ../components/_table-sidebar %> 
   </div>
 
-  <div class="col-xs-11 table-table">
+  <div class="col-xs-4">
+    <% var tableList= data.tableList; %>
+    <% include ../components/_table-list-sidebar %> 
+  </div>
+
+  <div class="pd col-sm table-table">
     <% var tableData= data.users; %>
     <% include ../components/_table-homepage %> 
   </div>

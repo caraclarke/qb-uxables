@@ -3,6 +3,8 @@ const greenRail = document.querySelector(".green-rail");
 const orangeRail = document.querySelector(".orange-rail");
 const greenTrigger = document.querySelector(".green-trigger");
 const orangeTrigger = document.querySelector(".orange-trigger");
+const tableSidebar = document.querySelector(".table-list-sidebar");
+const sidebarHide = document.querySelector(".sidebar-display");
 
 rail.forEach((item) => {
   item.addEventListener("click", ( e ) => {
@@ -32,3 +34,9 @@ greenTrigger.addEventListener("click", ( e ) => {
     greenRail.classList.add("hide");
   }
 });
+
+sidebarHide.addEventListener("click", ( e ) => {
+  e.preventDefault();
+
+  tableSidebar.classList.add("hide");
+})
