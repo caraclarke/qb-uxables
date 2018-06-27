@@ -12,6 +12,7 @@ snapshots/*
 
 # ignore files moved incorrectly on error #
 app/*.ejs
+app/js/build/*
 
 build/*
 dist/*

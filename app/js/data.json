@@ -1,1 +1,259 @@
-{}
+{
+  "users": [
+    {
+      "_id": "5b337c2dc953b92372bfda48",
+      "index": 0,
+      "checked": true,
+      "activityType": "Outbound",
+      "activityDate": "Monday, June 27, 2016 2:22 AM",
+      "customerName": "LYRIA",
+      "scheduledFor": {
+        "first": "Wilkins",
+        "last": "Larsen"
+      },
+      "duration": "<ReferenceError: string is not defined>",
+      "scheduledStatus": "Unscheduled",
+      "scheduledStartTime": "Monday, June 4, 2018 2:53 PM"
+    },
+    {
+      "_id": "5b337c2d441a972f5645bef2",
+      "index": 1,
+      "checked": true,
+      "activityType": "Outbound",
+      "activityDate": "Friday, January 5, 2018 12:51 PM",
+      "customerName": "BRAINQUIL",
+      "scheduledFor": {
+        "first": "Shepard",
+        "last": "Haynes"
+      },
+      "duration": "<ReferenceError: string is not defined>",
+      "scheduledStatus": "Unscheduled",
+      "scheduledStartTime": "Thursday, January 19, 2017 10:50 AM"
+    },
+    {
+      "_id": "5b337c2dcf11c0c42184efde",
+      "index": 2,
+      "checked": false,
+      "activityType": "Inbound",
+      "activityDate": "Saturday, June 6, 2015 12:35 PM",
+      "customerName": "OTHERWAY",
+      "scheduledFor": {
+        "first": "Letha",
+        "last": "Casey"
+      },
+      "duration": "<ReferenceError: string is not defined>",
+      "scheduledStatus": "Scheduled",
+      "scheduledStartTime": "Friday, August 21, 2015 1:48 PM"
+    },
+    {
+      "_id": "5b337c2ddec860e93b0654f0",
+      "index": 3,
+      "checked": true,
+      "activityType": "Inbound",
+      "activityDate": "Friday, September 23, 2016 7:36 PM",
+      "customerName": "CUIZINE",
+      "scheduledFor": {
+        "first": "Barron",
+        "last": "Dale"
+      },
+      "duration": "<ReferenceError: string is not defined>",
+      "scheduledStatus": "Unscheduled",
+      "scheduledStartTime": "Monday, July 17, 2017 5:42 PM"
+    },
+    {
+      "_id": "5b337c2dd7befd8868126edc",
+      "index": 4,
+      "checked": false,
+      "activityType": "Outbound",
+      "activityDate": "Sunday, October 30, 2016 11:01 AM",
+      "customerName": "QUANTALIA",
+      "scheduledFor": {
+        "first": "Burks",
+        "last": "Lynn"
+      },
+      "duration": "<ReferenceError: string is not defined>",
+      "scheduledStatus": "Scheduled",
+      "scheduledStartTime": "Friday, October 7, 2016 2:55 PM"
+    },
+    {
+      "_id": "5b337c2df4998e814ea27a3f",
+      "index": 5,
+      "checked": false,
+      "activityType": "Outbound",
+      "activityDate": "Tuesday, March 25, 2014 7:56 AM",
+      "customerName": "EARTHWAX",
+      "scheduledFor": {
+        "first": "Rhodes",
+        "last": "Good"
+      },
+      "duration": "<ReferenceError: string is not defined>",
+      "scheduledStatus": "Unscheduled",
+      "scheduledStartTime": "Thursday, March 5, 2015 7:17 PM"
+    },
+    {
+      "_id": "5b337c2dc14978a338000f45",
+      "index": 6,
+      "checked": false,
+      "activityType": "Outbound",
+      "activityDate": "Monday, January 13, 2014 7:32 PM",
+      "customerName": "OPTICOM",
+      "scheduledFor": {
+        "first": "Donna",
+        "last": "Lindsey"
+      },
+      "duration": "<ReferenceError: string is not defined>",
+      "scheduledStatus": "Unscheduled",
+      "scheduledStartTime": "Monday, September 7, 2015 4:19 PM"
+    },
+    {
+      "_id": "5b337c2dc39c5eb652cc792e",
+      "index": 7,
+      "checked": true,
+      "activityType": "Inbound",
+      "activityDate": "Wednesday, July 12, 2017 3:59 PM",
+      "customerName": "DIGITALUS",
+      "scheduledFor": {
+        "first": "Mallory",
+        "last": "Pittman"
+      },
+      "duration": "<ReferenceError: string is not defined>",
+      "scheduledStatus": "Scheduled",
+      "scheduledStartTime": "Friday, December 30, 2016 12:05 PM"
+    },
+    {
+      "_id": "5b337c2d0c7549665cae5aec",
+      "index": 8,
+      "checked": true,
+      "activityType": "Outbound",
+      "activityDate": "Sunday, November 8, 2015 8:59 AM",
+      "customerName": "NIMON",
+      "scheduledFor": {
+        "first": "Howard",
+        "last": "Garza"
+      },
+      "duration": "<ReferenceError: string is not defined>",
+      "scheduledStatus": "Scheduled",
+      "scheduledStartTime": "Saturday, March 10, 2018 3:04 PM"
+    },
+    {
+      "_id": "5b337c2d52531d8c55823612",
+      "index": 9,
+      "checked": true,
+      "activityType": "Outbound",
+      "activityDate": "Monday, November 9, 2015 8:13 PM",
+      "customerName": "JUNIPOOR",
+      "scheduledFor": {
+        "first": "Dudley",
+        "last": "Villarreal"
+      },
+      "duration": "<ReferenceError: string is not defined>",
+      "scheduledStatus": "Unscheduled",
+      "scheduledStartTime": "Thursday, November 17, 2016 3:25 AM"
+    },
+    {
+      "_id": "5b337c2d6875f78689633391",
+      "index": 10,
+      "checked": true,
+      "activityType": "Inbound",
+      "activityDate": "Monday, August 31, 2015 9:40 AM",
+      "customerName": "TELEPARK",
+      "scheduledFor": {
+        "first": "Patton",
+        "last": "Hull"
+      },
+      "duration": "<ReferenceError: string is not defined>",
+      "scheduledStatus": "Scheduled",
+      "scheduledStartTime": "Saturday, September 26, 2015 1:13 AM"
+    },
+    {
+      "_id": "5b337c2da9184760c789c7a3",
+      "index": 11,
+      "checked": false,
+      "activityType": "Outbound",
+      "activityDate": "Saturday, August 27, 2016 2:24 AM",
+      "customerName": "ANIVET",
+      "scheduledFor": {
+        "first": "Huber",
+        "last": "Norton"
+      },
+      "duration": "<ReferenceError: string is not defined>",
+      "scheduledStatus": "Scheduled",
+      "scheduledStartTime": "Tuesday, August 26, 2014 7:32 PM"
+    },
+    {
+      "_id": "5b337c2d51dff3daf955385f",
+      "index": 12,
+      "checked": false,
+      "activityType": "Outbound",
+      "activityDate": "Saturday, July 29, 2017 8:11 AM",
+      "customerName": "FUELWORKS",
+      "scheduledFor": {
+        "first": "Lula",
+        "last": "Cline"
+      },
+      "duration": "<ReferenceError: string is not defined>",
+      "scheduledStatus": "Scheduled",
+      "scheduledStartTime": "Tuesday, March 11, 2014 2:44 PM"
+    },
+    {
+      "_id": "5b337c2d103c2a9022fc9a38",
+      "index": 13,
+      "checked": true,
+      "activityType": "Outbound",
+      "activityDate": "Friday, April 17, 2015 2:23 AM",
+      "customerName": "HONOTRON",
+      "scheduledFor": {
+        "first": "Williams",
+        "last": "Herring"
+      },
+      "duration": "<ReferenceError: string is not defined>",
+      "scheduledStatus": "Unscheduled",
+      "scheduledStartTime": "Monday, May 1, 2017 9:55 PM"
+    },
+    {
+      "_id": "5b337c2ddce766061678e9a1",
+      "index": 14,
+      "checked": false,
+      "activityType": "Inbound",
+      "activityDate": "Friday, December 25, 2015 5:41 AM",
+      "customerName": "MOMENTIA",
+      "scheduledFor": {
+        "first": "Ingrid",
+        "last": "Rhodes"
+      },
+      "duration": "<ReferenceError: string is not defined>",
+      "scheduledStatus": "Scheduled",
+      "scheduledStartTime": "Tuesday, August 9, 2016 2:47 PM"
+    },
+    {
+      "_id": "5b337c2df6a183e69409fd21",
+      "index": 15,
+      "checked": true,
+      "activityType": "Inbound",
+      "activityDate": "Thursday, July 24, 2014 4:45 AM",
+      "customerName": "PROWASTE",
+      "scheduledFor": {
+        "first": "Santana",
+        "last": "Avery"
+      },
+      "duration": "<ReferenceError: string is not defined>",
+      "scheduledStatus": "Unscheduled",
+      "scheduledStartTime": "Sunday, October 22, 2017 9:47 PM"
+    },
+    {
+      "_id": "5b337c2dcf558aabf63011f4",
+      "index": 16,
+      "checked": true,
+      "activityType": "Inbound",
+      "activityDate": "Saturday, October 14, 2017 12:42 AM",
+      "customerName": "ZAGGLES",
+      "scheduledFor": {
+        "first": "Tammie",
+        "last": "Wilson"
+      },
+      "duration": "<ReferenceError: string is not defined>",
+      "scheduledStatus": "Scheduled",
+      "scheduledStartTime": "Tuesday, February 7, 2017 5:12 PM"
+    } 
+  ]
+}

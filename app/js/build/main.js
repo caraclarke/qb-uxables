@@ -1,5 +1,3 @@
-'use strict';
+"use strict";
 
-var test = function test() {
-  console.log('hello');
-};
+console.log("hallo");
