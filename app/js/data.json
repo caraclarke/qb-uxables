@@ -133,8 +133,8 @@
         "checked": false
       },
       "duration": "39",
-      "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "April 18, 2018"
+      "scheduledStatus": "Cancelled",
+      "scheduledStartTime": "n/a"
     },
     {
       "index": 8,
@@ -201,8 +201,8 @@
         "checked": false
       },
       "duration": "10",
-      "scheduledStatus": "Unscheduled",
-      "scheduledStartTime": "March 15, 2018"
+      "scheduledStatus": "Cancelled",
+      "scheduledStartTime": "n/a"
     },
     {
       "index": 12,
