@@ -25,13 +25,13 @@
     cursor: pointer;
 
     &.color-green {
-      border-color: #9AAD55;
-      background-color: #9AAD55;
+      border-color: $green;
+      background-color: $green;
     }
 
     &.color-orange {
-      border-color: #F29C6C;
-      background-color: #F29C6C;
+      border-color: $orange;
+      background-color: $orange;
     }
   }
 }

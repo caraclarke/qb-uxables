@@ -1,38 +1,19 @@
 const rail = document.querySelectorAll(".rail");
-const greenRail = document.querySelector(".green-rail");
-const orangeRail = document.querySelector(".orange-rail");
-const greenTrigger = document.querySelector(".green-trigger");
-const orangeTrigger = document.querySelector(".orange-trigger");
+const railContainer = document.querySelector(".rail-container");
+const colorRail = document.querySelector(".color-rail");
+const colorTrigger = document.querySelectorAll(".color-trigger");
 const tableSidebar = document.querySelector(".table-list-sidebar");
 const sidebarHide = document.querySelector(".sidebar-display");
 
-rail.forEach((item) => {
+railContainer.addEventListener("click", ( e ) => {
+  $("#color-modal").modal("toggle");
+});
+
+colorTrigger.forEach((item) => {
   item.addEventListener("click", ( e ) => {
-    $("#color-modal").modal("toggle");
+    e.preventDefault();
+    colorRail.classList.toggle("orange");
   });
-});
-
-// sidebar swaps
-orangeTrigger.addEventListener("click", ( e ) => {
-  e.preventDefault();
-  if ( orangeRail.classList.contains("hide")) {
-    orangeRail.classList.remove("hide");
-    greenRail.classList.add("hide");
-  } else {
-    orangeRail.classList.remove("hide");
-    greenRail.classList.add("hide");
-  }
-});
-
-greenTrigger.addEventListener("click", ( e ) => {
-  e.preventDefault();
-  if ( greenRail.classList.contains("hide")) {
-    greenRail.classList.remove("hide");
-    orangeRail.classList.add("hide");
-  } else {
-    orangeRail.classList.remove("hide");
-    greenRail.classList.add("hide");
-  }
 });
 
 sidebarHide.addEventListener("click", ( e ) => {

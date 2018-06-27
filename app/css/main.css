@@ -140,6 +140,12 @@
       border-color: #F29C6C;
       background-color: #F29C6C; }
 
+.color-rail {
+  height: 100%;
+  background-color: #9AAD55; }
+  .color-rail.orange {
+    background-color: #F29C6C; }
+
 .table-list-sidebar {
   background-color: #F7F7F8;
   height: 100%;
