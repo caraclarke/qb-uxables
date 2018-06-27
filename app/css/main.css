@@ -101,6 +101,9 @@
           background-color: #fff; }
   .table .table-body {
     font-size: 15px; }
+    .table .table-body .table-row:hover {
+      cursor: pointer;
+      background-color: #F4FBFE; }
     .table .table-body th {
       border-right: 1px solid #dee2e6; }
 

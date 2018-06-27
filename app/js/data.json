@@ -340,6 +340,22 @@
     "duration": 39,
     "scheduledStatus": "Unscheduled",
     "scheduledStartTime": "June 9, 2018"
+    },
+    {
+    "activityType": "Inbound",
+    "activityDate": "06/10/2018",
+    "customerName": "Eyeris",
+    "scheduledFor": {
+      "first": "Gaines",
+      "last": "Duran"
+    },
+    "checkbox": {
+      "id": "5b3395860378259a9b93d7d7",
+      "checked": true
+    },
+    "duration": 39,
+    "scheduledStatus": "Unscheduled",
+    "scheduledStartTime": "June 9, 2018"
     }
   ]
 }

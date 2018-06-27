@@ -1,12 +1,22 @@
 "use strict";
 
-var rail = document.querySelectorAll(".rail");
 var pickerTrigger = document.querySelector(".picker-container");
 var colorRail = document.querySelector(".color-rail");
 var colorTrigger = document.querySelectorAll(".color-trigger");
 var tableSidebar = document.querySelector(".table-list-sidebar");
 var sidebarShow = document.querySelector(".sidebar-trigger");
 var sidebarHide = document.querySelector(".sidebar-display");
+var tableRow = document.querySelector(".table-row:nth-of-type(1)");
+var newRowChild = document.querySelector(".new-row");
+
+var keypressListen = function keypressListen(e) {
+  // 61 for plus
+  if (e.keyCode === 31) {
+    // minus
+    tableRow.parentNode.prepend(newRowChild);
+    newRowChild.classList.remove("hide");
+  }
+};
 
 pickerTrigger.addEventListener("click", function (e) {
   $("#color-modal").modal("toggle");
@@ -17,6 +27,14 @@ colorTrigger.forEach(function (item) {
     e.preventDefault();
     colorRail.classList.toggle("orange");
   });
+});
+
+tableRow.addEventListener("focus", function (e) {
+  e.target.addEventListener("keypress", keypressListen);
+});
+
+tableRow.addEventListener("hover", function (e) {
+  console.log("do some sort of hover plus popover whatever");
 });
 
 sidebarShow.addEventListener("click", function (e) {

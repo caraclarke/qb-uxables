@@ -27,6 +27,13 @@
   .table-body {
     font-size: 15px;
 
+    .table-row {
+      &:hover {
+        cursor: pointer;
+        background-color: $lightblue;
+      }
+    }
+
     th {
       border-right: 1px solid #dee2e6;
     }

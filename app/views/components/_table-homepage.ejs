@@ -16,7 +16,7 @@
   </thead>
   <tbody class="table-body">
     <% tableData.forEach(function(item) { %>
-    <tr>
+    <tr class="table-row" tabindex="0">
       <th scope="row">
         <% input=item.checkbox %>
         <% include ./_checkbox %>
@@ -30,6 +30,7 @@
       <td><%= item.scheduledStartTime %></td>
     </tr>
     <% }) %>
+    <% include ./_table-line %>
   </tbody>
 </table>
 
