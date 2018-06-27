@@ -123,6 +123,22 @@
 .modal-content {
   margin-bottom: 150px;
   margin-left: 30px; }
+  .modal-content .color-btn {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+    border: 1px solid;
+    cursor: pointer; }
+    .modal-content .color-btn.color-green {
+      border-color: #9AAD55;
+      background-color: #9AAD55; }
+    .modal-content .color-btn.color-orange {
+      border-color: #F29C6C;
+      background-color: #F29C6C; }
 
 /***************************
   RULES
