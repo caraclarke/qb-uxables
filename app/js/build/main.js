@@ -9,12 +9,16 @@ var sidebarHide = document.querySelector(".sidebar-display");
 var tableRow = document.querySelector(".table-row:nth-of-type(1)");
 var newRowChild = document.querySelector(".new-row");
 
+var addRow = function addRow() {
+  tableRow.parentNode.prepend(newRowChild);
+  newRowChild.classList.remove("hide");
+};
+
 var keypressListen = function keypressListen(e) {
   // 61 for plus
   if (e.keyCode === 31) {
     // minus
-    tableRow.parentNode.prepend(newRowChild);
-    newRowChild.classList.remove("hide");
+    addRow();
   }
 };
 
@@ -32,10 +36,6 @@ colorTrigger.forEach(function (item) {
 tableRow.addEventListener("focus", function (e) {
   $('[data-toggle="popover"]').popover();
   e.target.addEventListener("keypress", keypressListen);
-});
-
-tableRow.addEventListener("click", function (e) {
-  console.log("do some sort of hover plus popover whatever");
 });
 
 sidebarShow.addEventListener("click", function (e) {

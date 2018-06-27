@@ -7,12 +7,16 @@ const sidebarHide = document.querySelector(".sidebar-display");
 const tableRow = document.querySelector(".table-row:nth-of-type(1)");
 const newRowChild = document.querySelector(".new-row");
 
+const addRow = () => {
+  tableRow.parentNode.prepend(newRowChild);
+  newRowChild.classList.remove("hide");
+};
+
 const keypressListen = ( e ) => {
   // 61 for plus
   if ( e.keyCode === 31 ) {
     // minus
-    tableRow.parentNode.prepend(newRowChild);
-    newRowChild.classList.remove("hide");
+    addRow();
   }
 }
 
@@ -32,10 +36,6 @@ tableRow.addEventListener("focus", ( e ) => {
   e.target.addEventListener("keypress", keypressListen);
 });
 
-tableRow.addEventListener("click", ( e ) => {
-  console.log("do some sort of hover plus popover whatever");
-});
-
 sidebarShow.addEventListener("click", ( e ) => {
   e.preventDefault();
 
@@ -46,4 +46,4 @@ sidebarHide.addEventListener("click", ( e ) => {
   e.preventDefault();
 
   tableSidebar.classList.add("hide");
-})
+});
