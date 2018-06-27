@@ -31,6 +31,19 @@ const keypressListen = ( e ) => {
   }
 }
 
+if ( colorRail ) {
+  sidebarShow.addEventListener("click", ( e ) => {
+  e.preventDefault();
+
+  tableSidebar.classList.toggle("display");
+});
+
+sidebarHide.addEventListener("click", ( e ) => {
+  e.preventDefault();
+
+  tableSidebar.classList.toggle("display");
+});
+}
 // tableRow.addEventListener("focus", ( e ) => {
 //   $('[data-toggle="popover"]').popover();
 //   e.target.addEventListener("keypress", keypressListen);
@@ -46,18 +59,6 @@ const keypressListen = ( e ) => {
 //   e.preventDefault();
 //   addRow();
 // })
-
-// sidebarShow.addEventListener("click", ( e ) => {
-//   e.preventDefault();
-
-//   tableSidebar.classList.toggle("display");
-// });
-
-// sidebarHide.addEventListener("click", ( e ) => {
-//   e.preventDefault();
-
-//   tableSidebar.classList.toggle("display");
-// });
 
 // stuff
 

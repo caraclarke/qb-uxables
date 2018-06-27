@@ -33,6 +33,19 @@ var keypressListen = function keypressListen(e) {
   }
 };
 
+if (colorRail) {
+  sidebarShow.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    tableSidebar.classList.toggle("display");
+  });
+
+  sidebarHide.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    tableSidebar.classList.toggle("display");
+  });
+}
 // tableRow.addEventListener("focus", ( e ) => {
 //   $('[data-toggle="popover"]').popover();
 //   e.target.addEventListener("keypress", keypressListen);
@@ -48,18 +61,6 @@ var keypressListen = function keypressListen(e) {
 //   e.preventDefault();
 //   addRow();
 // })
-
-// sidebarShow.addEventListener("click", ( e ) => {
-//   e.preventDefault();
-
-//   tableSidebar.classList.toggle("display");
-// });
-
-// sidebarHide.addEventListener("click", ( e ) => {
-//   e.preventDefault();
-
-//   tableSidebar.classList.toggle("display");
-// });
 
 // stuff
 
