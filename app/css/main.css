@@ -325,6 +325,8 @@ body.myapps {
   width: 100%;
   min-width: 1240px;
   min-height: 250px; }
+  .page-top_myapps .left {
+    background: white; }
 
 .myapps-left {
   width: 8px;
@@ -358,7 +360,7 @@ body.myapps {
 
 .app-hm {
   height: 100%;
-  min-height: 1200px; }
+  min-height: 1500px; }
   .app-hm .right-test img {
     float: right; }
 
@@ -369,3 +371,6 @@ body.myapps {
 .md-modal {
   top: 300px;
   left: 655px; }
+
+.main-tbl {
+  min-height: 1500px; }

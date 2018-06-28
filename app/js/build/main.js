@@ -3,7 +3,7 @@
 var pickerTrigger = document.querySelector(".picker-container");
 var colorRail = document.querySelector(".table-sidebar");
 var sidebarShow = document.querySelector(".sidebar-trigger");
-var sidebarHide = document.querySelector(".sidebar-display");
+// const sidebarHide = document.querySelector(".sidebar-display");
 
 // rows
 var topRowChild = document.querySelector(".top-new-row");
@@ -47,14 +47,14 @@ if (colorRail) {
     tableSidebar.classList.toggle("display");
   });
 
-  sidebarHide.addEventListener("click", function (e) {
-    e.preventDefault();
+  // sidebarHide.addEventListener("click", ( e ) => {
+  //   e.preventDefault();
 
-    tableSidebar.classList.toggle("display");
-  });
+  //   tableSidebar.classList.toggle("display");
+  // });
 
   tableSidebar.addEventListener("click", function (e) {
-    // navigate to somewhere
+    window.location.href = "table-view.html";
   });
 }
 

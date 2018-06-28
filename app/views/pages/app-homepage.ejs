@@ -2,14 +2,18 @@
 
 <!-- <div class="wrapper">  -->
   <div class="col-xs-12 row app-hm">
-    <div class="col-xs-2 app-color-rail">
-    <% include ../components/_records-sidebar %>
-  </div>
+  <div class="col-xs-1 table-sidebar">
+      <% include ../components/_table-sidebar %> 
+    </div>
+
+    <div class="col-xs-4 panel-view">
+      <% include ../components/_table-panel %> 
+    </div>
   <div class="col-sm main-content">
     <div class="page-top_myapps col-xs-12">
       <div class="left"><img src="img/tables/app-hmpg_slice1.png"></div>
       <div class="right right-test"><img src="img/tables/app-hmpg_slice2.png"></div>
-      <div class="app-hmpg_content"><button class="md-trigger" data-modal="modal-1"><img src="img/tables/app-hmpg_slice3.png"></button></div>
+      <div class="app-hmpg_content"><button class="md-trigger" data-modal="modal-1"><img src="img/tables/app-hmpg_slice3b.png"></button></div>
     </div>
     <div class="md-modal md-effect-3" id="modal-1">
       
@@ -29,6 +33,7 @@
     <!-- classie.js by @desandro: https://github.com/desandro/classie -->
     <script src="js/al/classie.js"></script>
     <script src="js/al/modalEffects.js"></script>
+    <script src="js/main.js"></script>
 
     <!-- for the blur effect -->
     <!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->

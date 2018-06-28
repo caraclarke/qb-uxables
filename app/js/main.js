@@ -1,7 +1,7 @@
 const pickerTrigger = document.querySelector(".picker-container");
 const colorRail = document.querySelector(".table-sidebar");
 const sidebarShow = document.querySelector(".sidebar-trigger");
-const sidebarHide = document.querySelector(".sidebar-display");
+// const sidebarHide = document.querySelector(".sidebar-display");
 
 // rows
 const topRowChild = document.querySelector(".top-new-row");
@@ -46,14 +46,14 @@ if ( colorRail ) {
     tableSidebar.classList.toggle("display");
   });
 
-  sidebarHide.addEventListener("click", ( e ) => {
-    e.preventDefault();
+  // sidebarHide.addEventListener("click", ( e ) => {
+  //   e.preventDefault();
 
-    tableSidebar.classList.toggle("display");
-  });
+  //   tableSidebar.classList.toggle("display");
+  // });
 
   tableSidebar.addEventListener("click", ( e ) => {
-    // navigate to somewhere
+    window.location.href="table-view.html";
   });
 }
 
