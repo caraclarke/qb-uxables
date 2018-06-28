@@ -1,5 +1,5 @@
 const pickerTrigger = document.querySelector(".picker-container");
-const colorRail = document.querySelector(".color-rail");
+const colorRail = document.querySelector(".table-sidebar");
 const tableSidebar = document.querySelector(".table-list-sidebar");
 const sidebarShow = document.querySelector(".sidebar-trigger");
 const sidebarHide = document.querySelector(".sidebar-display");
@@ -18,19 +18,6 @@ let intervalRewind;
 // updated stuffs
 const colorPickerClick = document.querySelector(".color-picker-img");
 const close = document.querySelector(".close-modal");
-
-// const addRow = () => {
-//   tableRow.parentNode.prepend(newRowChild);
-//   newRowChild.classList.remove("hide");
-// };
-
-// const keypressListen = ( e ) => {
-//   // 61 for plus
-//   if ( e.keyCode === 31 ) {
-//     // minus
-//     addRow();
-//   }
-// }
 
 if ( colorRail ) {
   sidebarShow.addEventListener("click", ( e ) => {

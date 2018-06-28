@@ -1,7 +1,7 @@
 "use strict";
 
 var pickerTrigger = document.querySelector(".picker-container");
-var colorRail = document.querySelector(".color-rail");
+var colorRail = document.querySelector(".table-sidebar");
 var tableSidebar = document.querySelector(".table-list-sidebar");
 var sidebarShow = document.querySelector(".sidebar-trigger");
 var sidebarHide = document.querySelector(".sidebar-display");
@@ -20,19 +20,6 @@ var intervalRewind = void 0;
 // updated stuffs
 var colorPickerClick = document.querySelector(".color-picker-img");
 var close = document.querySelector(".close-modal");
-
-// const addRow = () => {
-//   tableRow.parentNode.prepend(newRowChild);
-//   newRowChild.classList.remove("hide");
-// };
-
-// const keypressListen = ( e ) => {
-//   // 61 for plus
-//   if ( e.keyCode === 31 ) {
-//     // minus
-//     addRow();
-//   }
-// }
 
 if (colorRail) {
   sidebarShow.addEventListener("click", function (e) {
