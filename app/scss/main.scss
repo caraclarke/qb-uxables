@@ -150,45 +150,24 @@ body {
 }
 
 // my apps page
-body.tablebody {
-  margin: 0 auto;
-  padding: 0;
-  background-color: #ffffff;
-  background-image: url('img/table-hmpg_bg.png');
-  background-repeat: repeat-x;
-  width: "100%";
+.grid {
+  background-color: white;
+  min-height: 800px;
+  width: 100%;
   min-width: 1240px;
 }
 
-body.myapps {
-  margin: 0 auto;
-  background-color: #ffffff;
-  background-image: url('img/my-apps_bg2.png');
-  background-repeat: repeat-x;
-  width: "100%";
-  min-width: 1240px;
+body.app {
+  background: none;
 }
-
-/* ------ Global ----- */
-
-.wrapper {
-  min-width: 1240px;
-}
-
-.left {
-  float: left;
-}
-.right {
-  float: right;
-}
-
 
 /* ------ My Apps ----- */
-
 .page-top_myapps {
-  min-width: 100%;
-  background-image: url('img/gifs/my-apps_bg2.png');
+  background-image: url('../img/bottom-border-record.png');
   background-repeat: repeat-x;
+  width: 100%;
+  min-width: 1240px;
+  min-height: 250px;
 }
 
 .myapps-left {
@@ -205,7 +184,6 @@ body.myapps {
 }
 
 .grid {
-  max-width: 1100px;
   padding-top: 32px;
 }
 
