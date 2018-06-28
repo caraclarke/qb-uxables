@@ -265,11 +265,11 @@ body {
 .page-top_table {
   min-width: 100%; }
 
-.table {
+.tbl {
   display: table;
   table-layout: fixed;
   min-width: 100%;
   clear: both; }
 
-.col {
+.tbl-col {
   display: table-cell; }
