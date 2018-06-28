@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>QB UXables</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!-- build:css css/styles.min.css -->
+      <link rel="stylesheet" href="./css/main.css">
+    <!-- endbuild -->
+
+    <link rel="stylesheet" href="./img/icons/icons.fallback.css">
+    <link rel="stylesheet" href="./img/icons/icons.data.png.css">
+    <link rel="stylesheet" href="./img/icons/icons.data.svg.css">
+    <script data-concat="false" src="./vendor/grunticon/grunticon.loader.min.js"></script>
+  </head>
+  <body class="myapps">
+
+  <div class="pd container-fluid main-section col-xs-12" role="main">
+
+
+<!-- <div class="wrapper">  -->
+  <div class="col-xs-12 row app-hm">
+    <div class="col-xs-2 app-color-rail">
+    <div class="col-xs-12 rail-container color-rail">
+  <div class="sidebar-trigger">
+    <img src="./img/tables/left-nav.png" />
+  </div>
+  <div class="records-container">
+  </div>
+</div>
+
+  </div>
+  <div class="col-sm main-content">
+    <div class="page-top_myapps col-xs-12">
+      <div class="left"><img src="img/tables/app-hmpg_slice1.png"></div>
+      <div class="right right-test"><img src="img/tables/app-hmpg_slice2.png"></div>
+      <div class="app-hmpg_content"><button class="md-trigger" data-modal="modal-1"><img src="img/tables/app-hmpg_slice3.png"></button></div>
+    </div>
+    <div class="md-modal md-effect-3" id="modal-1">
+      
+      <div class="md-content">
+        <div>
+          <button class="md-close"><img src="img/tables/app-hmpg_chart-picker.png"></button>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="md-overlay"></div><!-- the overlay element -->
+  </div>
+  </div>
+<!-- </div> -->
+
+    <!-- classie.js by @desandro: https://github.com/desandro/classie -->
+    <script src="js/al/classie.js"></script>
+    <script src="js/al/modalEffects.js"></script>
+
+    <!-- for the blur effect -->
+    <!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+    <script>
+      // this is important for IEs
+      var polyfilter_scriptpath = '/js/';
+    </script>
+    <script src="js/al/cssParser.js"></script>
+    <script src="js/al/css-filters-polyfill.js"></script>
+
+    <script>
+      $('#submit').on('click', function() {
+    if ($('#container').css('opacity') == 0) {
+        $('#container').css('opacity', 1);
+    }
+    else {
+        $('#container').css('opacity', 0);
+    }
+});
+</script>
+  
+
+</body>
+</html>

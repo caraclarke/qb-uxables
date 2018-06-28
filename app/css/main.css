@@ -314,7 +314,8 @@ body {
   width: 100%;
   min-width: 1240px; }
 
-body.app {
+body.app,
+body.myapps {
   background: none; }
 
 /* ------ My Apps ----- */
@@ -343,3 +344,28 @@ body.app {
   width: 232px;
   height: 232px;
   float: left; }
+
+.app-hmpg_content {
+  /*clear: both;*/
+  position: absolute;
+  left: 58px;
+  top: 256px; }
+
+.app-color-rail {
+  background-color: #94af45;
+  padding-left: 10px;
+  text-align: center; }
+
+.app-hm {
+  height: 100%;
+  min-height: 1200px; }
+  .app-hm .right-test img {
+    float: right; }
+
+.main-content {
+  padding: 0;
+  margin: 0; }
+
+.md-modal {
+  top: 300px;
+  left: 655px; }
