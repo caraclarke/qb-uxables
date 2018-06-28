@@ -110,7 +110,13 @@ body {
   cursor: pointer;
 }
 
+.panel-view {
+  border-right: 0.5px solid #d7d6d9;
+  background-color: #f7f7f8;
+}
+
 .record-page {
+  height: 100%;
   .color-rail {
     background-color: $green;
   }  
@@ -133,4 +139,8 @@ body {
   border: 1px solid blue;
   opacity: 0;
 }
+}
+
+.record-page {
+  background-color: white;
 }
