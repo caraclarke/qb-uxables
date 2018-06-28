@@ -44,17 +44,11 @@
 
   &.display {
     width: 200px;
-    background-image: url('../img/table-panel.png');
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    background-position: center top;
-
-    .sidebar-display {
-      visibility: hidden !important;
-    }
   }
 
   .sidebar-display {
     max-height: 1100px;
+    min-width: 200px;
+    width: 100%;
   }
 }
