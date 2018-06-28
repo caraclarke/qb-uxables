@@ -148,3 +148,69 @@ body {
 .tl-sc {
   padding-left: 0;
 }
+
+// my apps page
+body.tablebody {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #ffffff;
+  background-image: url('img/table-hmpg_bg.png');
+  background-repeat: repeat-x;
+  width: "100%";
+  min-width: 1240px;
+}
+
+body.myapps {
+  margin: 0 auto;
+  background-color: #ffffff;
+  background-image: url('img/my-apps_bg2.png');
+  background-repeat: repeat-x;
+  width: "100%";
+  min-width: 1240px;
+}
+
+/* ------ Global ----- */
+
+.wrapper {
+  min-width: 1240px;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+
+/* ------ My Apps ----- */
+
+.page-top_myapps {
+  min-width: 100%;
+  background-image: url('img/gifs/my-apps_bg2.png');
+  background-repeat: repeat-x;
+}
+
+.myapps-left {
+  width: 8px;
+  height: 100%;
+  background-color: #94af45;
+  float: left;
+}
+
+#link-gif {
+    width: 232px;
+    height: 235px;
+    cursor: pointer;
+}
+
+.grid {
+  max-width: 1100px;
+  padding-top: 32px;
+}
+
+#link {
+  width: 232px;
+    height: 232px;
+    float: left;
+}
