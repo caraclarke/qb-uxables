@@ -22,6 +22,17 @@ var close = document.querySelector(".close-modal");
 var col = document.querySelector(".col");
 var tableSidebar = document.querySelector(".table-list-sidebar");
 
+// record details
+var recordDetailNav = document.querySelector(".manager-row");
+
+if (recordDetailNav) {
+  recordDetailNav.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    // navigate somewhere
+  });
+}
+
 if (col) {
   col.addEventListener("click", function (e) {
     e.preventDefault();

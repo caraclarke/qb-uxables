@@ -20,6 +20,17 @@ const close = document.querySelector(".close-modal");
 const col = document.querySelector(".col");
 const tableSidebar = document.querySelector(".table-list-sidebar");
 
+// record details
+const recordDetailNav = document.querySelector(".manager-row");
+
+if ( recordDetailNav ) {
+  recordDetailNav.addEventListener("click", ( e ) => {
+    e.preventDefault();
+
+    // navigate somewhere
+  })
+}
+
 
 if ( col ) {
   col.addEventListener("click", ( e ) => {
