@@ -84,7 +84,9 @@
     font-size: 15px; }
 
 .picker-container {
-  height: 200px; }
+  height: 300px;
+  margin-top: 30px;
+  cursor: pointer; }
 
 .table-table {
   background-color: #edecee; }
@@ -150,11 +152,11 @@
     border: 1px solid;
     cursor: pointer; }
     .color-modal .modal-content .color-btn.color-green {
-      border-color: #9AAD55;
-      background-color: #9AAD55; }
+      border-color: #94af45;
+      background-color: #94af45; }
     .color-modal .modal-content .color-btn.color-orange {
-      border-color: #F29C6C;
-      background-color: #F29C6C; }
+      border-color: #ff9862;
+      background-color: #ff9862; }
 
 .row-modal {
   margin-top: auto;
@@ -163,43 +165,42 @@
     background-color: white; }
 
 .table-sidebar {
-  text-align: center; }
+  text-align: center;
+  background-color: #94af45; }
+  .table-sidebar.orange {
+    background-color: #ff9862; }
   .table-sidebar .folder-icon {
     margin-top: 25px;
     height: 26px; }
 
-.color-rail {
-  height: 100%;
-  background-color: #9AAD55; }
-  .color-rail.orange {
-    background-color: #F29C6C; }
-  .color-rail .icons-list {
-    padding: 0 8px;
-    margin: 0;
-    text-align: center;
-    padding-top: 60px;
-    list-style-type: none; }
-    .color-rail .icons-list li {
-      padding-top: 20px;
-      padding-bottom: 20px; }
-      .color-rail .icons-list li .sidebar-trigger {
-        background: none;
-        border: none;
-        cursor: pointer; }
-      .color-rail .icons-list li.bell {
-        border-bottom: 1px solid #fff; }
+.color-rail .icons-list {
+  padding: 0 8px;
+  margin: 0;
+  text-align: center;
+  padding-top: 60px;
+  list-style-type: none; }
+  .color-rail .icons-list li {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+    .color-rail .icons-list li .sidebar-trigger {
+      background: none;
+      border: none;
+      cursor: pointer; }
+    .color-rail .icons-list li.bell {
+      border-bottom: 1px solid #fff; }
 
 .table-list-sidebar {
   width: 0px;
-  -webkit-transition: width 0.5s;
-  transition: width 0.5s;
+  opacity: 0;
+  -webkit-transition: width 0.5s, opacity 0.5s;
+  transition: width 0.5s, opacity 0.5s;
   max-width: 181;
   cursor: pointer; }
   .table-list-sidebar.display {
-    width: 180px; }
+    width: 180px;
+    opacity: 1; }
   .table-list-sidebar .sidebar-display {
-    height: 100%;
-    max-height: 855px; }
+    max-height: 928px; }
 
 /***************************
   RULES
@@ -273,3 +274,6 @@ body {
 
 .tbl-col {
   display: table-cell; }
+
+.sidebar-trigger {
+  cursor: pointer; }

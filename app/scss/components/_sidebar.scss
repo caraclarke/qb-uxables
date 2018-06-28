@@ -1,5 +1,10 @@
 .table-sidebar {
   text-align: center;
+  background-color: $green;
+
+  &.orange {
+    background-color: $orange;
+  }
 
   .folder-icon {
     margin-top: 25px;
@@ -8,13 +13,6 @@
 }
 
 .color-rail {
-  height: 100%;
-  background-color: $green;
-
-  &.orange {
-    background-color: $orange;
-  }
-
   .icons-list {
     padding: 0 8px;
     margin: 0;
@@ -41,16 +39,17 @@
 
 .table-list-sidebar {
   width: 0px;
-  transition: width 0.5s;
+  opacity: 0;
+  transition: width 0.5s, opacity 0.5s;
   max-width: 181;
   cursor: pointer;
 
   &.display {
     width: 180px;
+    opacity: 1;
   }
 
   .sidebar-display {
-    height: 100%;
-    max-height: 855px;
+    max-height: 928px;
   }
 }
