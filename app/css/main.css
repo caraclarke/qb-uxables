@@ -191,16 +191,19 @@
 
 .table-list-sidebar {
   width: 0px;
-  opacity: 0;
-  -webkit-transition: width 0.5s, opacity 0.5s;
-  transition: width 0.5s, opacity 0.5s;
-  max-width: 181;
+  -webkit-transition: width 0.5s;
+  transition: width 0.5s;
   cursor: pointer; }
   .table-list-sidebar.display {
-    width: 180px;
-    opacity: 1; }
+    width: 200px;
+    background-image: url("../img/table-panel.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top; }
+    .table-list-sidebar.display .sidebar-display {
+      visibility: hidden !important; }
   .table-list-sidebar .sidebar-display {
-    max-height: 928px; }
+    max-height: 1100px; }
 
 /***************************
   RULES
@@ -271,6 +274,9 @@ body {
   table-layout: fixed;
   min-width: 100%;
   clear: both; }
+
+.col {
+  cursor: pointer; }
 
 .tbl-col {
   display: table-cell; }

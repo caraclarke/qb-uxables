@@ -39,17 +39,22 @@
 
 .table-list-sidebar {
   width: 0px;
-  opacity: 0;
-  transition: width 0.5s, opacity 0.5s;
-  max-width: 181;
+  transition: width 0.5s;
   cursor: pointer;
 
   &.display {
-    width: 180px;
-    opacity: 1;
+    width: 200px;
+    background-image: url('../img/table-panel.png');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+
+    .sidebar-display {
+      visibility: hidden !important;
+    }
   }
 
   .sidebar-display {
-    max-height: 928px;
+    max-height: 1100px;
   }
 }

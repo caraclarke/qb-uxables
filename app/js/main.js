@@ -1,6 +1,5 @@
 const pickerTrigger = document.querySelector(".picker-container");
 const colorRail = document.querySelector(".table-sidebar");
-const tableSidebar = document.querySelector(".table-list-sidebar");
 const sidebarShow = document.querySelector(".sidebar-trigger");
 const sidebarHide = document.querySelector(".sidebar-display");
 
@@ -18,6 +17,16 @@ let intervalRewind;
 // updated stuffs
 const colorPickerClick = document.querySelector(".color-picker-img");
 const close = document.querySelector(".close-modal");
+const col = document.querySelector(".col");
+const tableSidebar = document.querySelector(".table-list-sidebar");
+
+
+if ( col ) {
+  col.addEventListener("click", ( e ) => {
+    e.preventDefault();
+    window.location.href = "record-detail.html";
+  })
+}
 
 if ( colorRail ) {
   sidebarShow.addEventListener("click", ( e ) => {
@@ -30,6 +39,10 @@ if ( colorRail ) {
     e.preventDefault();
 
     tableSidebar.classList.toggle("display");
+  });
+
+  tableSidebar.addEventListener("click", ( e ) => {
+    // navigate to somewhere
   });
 }
 
