@@ -48,6 +48,11 @@ gulp.task('build:vendor', function() {
     .pipe(gulp.dest('docs/vendor'));
 });
 
+gulp.task('build:js', function() {
+  return gulp.src('app/js/**/*.js')
+    .pipe(gulp.dest('docs/js'));
+});
+
 gulp.task('build:portal', function() {
   return gulp.src(['app/css/base/*.css', 'app/css/portal/**/*.css'])
     .pipe(gulp.dest('docs/css/portal/'));
@@ -149,7 +154,7 @@ gulp.task('serve:build', function() {
 });
 
 gulp.task('build', function(cb) {
-  runSequence('cache:clear', 'clean:build', ['sass', 'js', 'build:vendor'], 'build:portal', 'move:js', 'move:icons', 'build:icons', 'build:img', 'ejs', 'useref', cb)
+  runSequence('cache:clear', 'clean:build', ['sass', 'js', 'build:vendor'], 'build:js', 'build:portal', 'move:js', 'move:icons', 'build:icons', 'build:img', 'ejs', 'useref', cb)
 });
 
 gulp.task('watch', ['browserSync', 'sass'], function() {

@@ -377,3 +377,6 @@ body.myapps {
 
 .main-tbl {
   min-height: 1500px; }
+
+.focus-off:focus {
+  outline: none; }
