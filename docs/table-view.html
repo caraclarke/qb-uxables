@@ -1,27 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>QB UXables</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.min.css">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>UXables</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="./img/icons/icons.fallback.css">
-    <link rel="stylesheet" href="./img/icons/icons.data.png.css">
-    <link rel="stylesheet" href="./img/icons/icons.data.svg.css">
-    <script data-concat="false" src="./vendor/grunticon/grunticon.loader.min.js"></script>
-  </head>
-  <body>
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.min.css">
+</head>
 
-  <div class="pd container-fluid main-section col-xs-12" role="main">
-
-
-<section class="col-xs-12 section" id="main">
-  <!-- table -->
-  <div class="col-xs-12">
-    <div class="row table-section">
-  <div class="col-xs-1 table-sidebar">
-    <div class="col-xs-12 rail-container color-rail">
+<body>
+  <div class="main-tbl row col-xs-12"> 
+    <div class="col-xs-1 table-sidebar">
+      <div class="col-xs-12 rail-container color-rail">
   <div class="sidebar-trigger">
     <img src="./img/tables/left-nav.png" />
   </div>
@@ -29,82 +22,45 @@
   </div>
 </div>
  
-  </div>
+    </div>
 
-  <div class="col-xs-4 panel-view">
-    <div class="col-xs-12 table-list-sidebar">
-  <img src="./img/table-panel.png" class="sidebar-display img-fluid" />
+    <div class="col-xs-4 panel-view">
+      <div class="col-xs-12 table-list-sidebar">
+  <img src="./img/table-panel.png" class="sidebar-display" />
 </div> 
+    </div>
+
+    <div class="col-sm tl-sc"><!-- header and table -->
+    <div class="page-top_table">
+      <div class="left"><img src="img/tables/table-hmpg_slice-1.png"></div>
+      <div class="right"><img src="img/tables/table-hmpg_slice-2.png"></div>
+    </div>
+
+    <div class="tbl">
+      <div class="left"><img src="img/tables/table-hmpg_slice-3.png"></div>
+      <div class="col"><img src="img/tables/table-hmpg_slice-4.png"></div>
+      <div class="tbl-col"><img src="img/tables/table-hmpg_slice-5.png"></div>
+      <div class="tbl-col"><img src="img/tables/table-hmpg_slice-6.png"></div>
+    </div>
+
+    <div class="page-bottom_table">
+      <img src="img/tables/table-hmpg_slice-7.png">
+    </div>
+  </div>
   </div>
 
-  <div class="col-sm table-table">
-    <div class="col-xs-12 row table-row top-row-container">
-  <div class="col-xs-3">
-    <img src="./img/sliced-table/top-left.png" class="img-fluid" />
-  </div>
-  <div class="col-xs-3">
-    <img src="./img/sliced-table/top-right.png" class="img-fluid" />
-  </div>
-  <div class="col-xs-3">
-    <img src="./img/sliced-table/top-righter.png" class="img-fluid" />
-  </div>
-  <div class="col-xs-3">
-    <img src="./img/sliced-table/top-rightest.png" class="img-fluid" />
-  </div>
-</div>
-<div class="col-xs-12">
-  <div class="col-xs-12 hide row top-new-row">
-    <div class="col-xs-4">
-      <img src="./img/sliced-table/active-line.png" class="img-fluid" />
-    </div>
-    <div class="col-xs-4">
-      <img src="./img/sliced-table/new-row.png" class="img-fluid" />
-    </div>
-    <div class="col-xs-4">
-      <img src="./img/sliced-table/new-row-two.png" class="img-fluid" />
-    </div>
-    <div class="col-xs-4">
-      <img src="./img/sliced-table/new-row-three.png" class="img-fluid" />
-    </div>
-  </div>
-  <div class="col-xs-12 hide row bottom-new-row">
-    <div class="col-xs-4">
-      <img src="./img/sliced-table/active-line.png" class="img-fluid" />
-    </div>
-    <div class="col-xs-4">
-      <img src="./img/sliced-table/new-row.png" class="img-fluid" />
-    </div>
-    <div class="col-xs-4">
-      <img src="./img/sliced-table/new-row-two.png" class="img-fluid" />
-    </div>
-    <div class="col-xs-4">
-      <img src="./img/sliced-table/new-row-three.png" class="img-fluid" />
+  <div class="modals">
+  <div class="modal row-modal" tabindex="-1" role="dialog" id="row-modal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="top-row">insert row above</button>
+        <button type="button" class="bottom-row">insert row below</button>
+      </div>
     </div>
   </div>
 </div>
-<div class="col-xs-12 row table-row bottom-row-container">
-  <div class="col-xs-3">
-    <img src="./img/sliced-table/bottom-left.png" class="img-fluid" />
-  </div>
-  <div class="col-xs-3">
-    <img src="./img/sliced-table/bottom-middle.png" class="img-fluid" />
-  </div>
-  <div class="col-xs-3">
-    <img src="./img/sliced-table/bottom-right.png" class="img-fluid" />
-  </div>
-  <div class="col-xs-3">
-    <img src="./img/sliced-table/bottom-rightest.png" class="img-fluid" />
-  </div>
-</div>
-<div class="col-xs-12 row">
-  <img src="./img/sliced-table/activities.png" class="img-fluid" />
-</div>
-  </div>
-</div>  
-  </div>
-</section>
-
-<div class="modal color-modal" tabindex="-1" role="dialog" id="color-modal">
+  <div class="modal color-modal" tabindex="-1" role="dialog" id="color-modal">
   <div class="modal-dialog modal-sm" role="document">
     <div class="modal-content">
       <div class="modal-body">
@@ -113,14 +69,13 @@
       </div>
     </div>
   </div>
-</div> 
+</div>
+</div>
 
-  </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <script type="text/javascript" src="./js/main.js"></script>
-  </body>
+</body>
 </html>
-

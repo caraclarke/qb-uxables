@@ -2,9 +2,8 @@
 
 var pickerTrigger = document.querySelector(".picker-container");
 var colorRail = document.querySelector(".table-sidebar");
-var tableSidebar = document.querySelector(".table-list-sidebar");
 var sidebarShow = document.querySelector(".sidebar-trigger");
-var sidebarHide = document.querySelector(".sidebar-display");
+// const sidebarHide = document.querySelector(".sidebar-display");
 
 // rows
 var topRowChild = document.querySelector(".top-new-row");
@@ -20,6 +19,26 @@ var intervalRewind = void 0;
 // updated stuffs
 var colorPickerClick = document.querySelector(".color-picker-img");
 var close = document.querySelector(".close-modal");
+var col = document.querySelector(".col");
+var tableSidebar = document.querySelector(".table-list-sidebar");
+
+// record details
+var recordDetailNav = document.querySelector(".manager-row");
+
+if (recordDetailNav) {
+  recordDetailNav.addEventListener("click", function (e) {
+    e.preventDefault();
+
+    window.location.href = "index.html";
+  });
+}
+
+if (col) {
+  col.addEventListener("click", function (e) {
+    e.preventDefault();
+    window.location.href = "record-detail.html";
+  });
+}
 
 if (colorRail) {
   sidebarShow.addEventListener("click", function (e) {
@@ -28,10 +47,8 @@ if (colorRail) {
     tableSidebar.classList.toggle("display");
   });
 
-  sidebarHide.addEventListener("click", function (e) {
-    e.preventDefault();
-
-    tableSidebar.classList.toggle("display");
+  tableSidebar.addEventListener("click", function (e) {
+    window.location.href = "table-view.html";
   });
 }
 
