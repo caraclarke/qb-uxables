@@ -116,6 +116,9 @@ body {
 }
 
 .record-page {
+  min-height: 1500px;
+  height: 100%;
+
   .color-rail {
     background-color: $green;
   }  
@@ -136,8 +139,8 @@ body {
   .manager-row {
     background-image: url('../img/bottom-border-record.png');
     background-repeat: repeat-x;
-    width: 100%;
-    min-width: 1240px;
+    height: 175px;
+    cursor: pointer;
   }
 }
 

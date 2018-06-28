@@ -140,7 +140,10 @@
 
 .color-modal .modal-content {
   margin-bottom: 80px;
-  margin-left: 0; }
+  margin-left: 0;
+  position: absolute;
+  top: 25px;
+  left: 5px; }
   .color-modal .modal-content .color-btn {
     width: 30px;
     height: 30px;
@@ -284,23 +287,23 @@ body {
   border-right: 0.5px solid #d7d6d9;
   background-color: #f7f7f8; }
 
-.record-page .color-rail {
-  background-color: #94af45; }
-
-.record-page .record-color-rail {
-  margin-right: 15px;
-  text-align: center;
-  padding-left: 8px;
-  background-color: #94af45; }
-
-.record-page #record-detail .slice-two {
-  float: right; }
-
-.record-page .manager-row {
-  background-image: url("../img/bottom-border-record.png");
-  background-repeat: repeat-x;
-  width: 100%;
-  min-width: 1240px; }
+.record-page {
+  min-height: 1500px;
+  height: 100%; }
+  .record-page .color-rail {
+    background-color: #94af45; }
+  .record-page .record-color-rail {
+    margin-right: 15px;
+    text-align: center;
+    padding-left: 8px;
+    background-color: #94af45; }
+  .record-page #record-detail .slice-two {
+    float: right; }
+  .record-page .manager-row {
+    background-image: url("../img/bottom-border-record.png");
+    background-repeat: repeat-x;
+    height: 175px;
+    cursor: pointer; }
 
 .record-page {
   background-color: white; }

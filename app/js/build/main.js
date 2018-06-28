@@ -29,7 +29,7 @@ if (recordDetailNav) {
   recordDetailNav.addEventListener("click", function (e) {
     e.preventDefault();
 
-    // navigate somewhere
+    window.location.href = "index.html";
   });
 }
 
@@ -46,12 +46,6 @@ if (colorRail) {
 
     tableSidebar.classList.toggle("display");
   });
-
-  // sidebarHide.addEventListener("click", ( e ) => {
-  //   e.preventDefault();
-
-  //   tableSidebar.classList.toggle("display");
-  // });
 
   tableSidebar.addEventListener("click", function (e) {
     window.location.href = "table-view.html";
