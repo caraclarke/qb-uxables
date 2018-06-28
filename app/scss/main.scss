@@ -106,3 +106,28 @@ body {
 .sidebar-trigger {
   cursor: pointer;
 }
+
+.record-page {
+  .color-rail {
+    background-color: $green;
+  }  
+
+  .record-color-rail {
+    text-align: center;
+    padding-left: 8px;
+    background-color: $green;
+  }
+
+  #record-detail {
+  background-image: url('../img/tables/record-detail_content.png');
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+  background-attachment: scroll;
+}
+
+.test {
+  border: 1px solid blue;
+  opacity: 0;
+}
+}

@@ -277,3 +277,22 @@ body {
 
 .sidebar-trigger {
   cursor: pointer; }
+
+.record-page .color-rail {
+  background-color: #94af45; }
+
+.record-page .record-color-rail {
+  text-align: center;
+  padding-left: 8px;
+  background-color: #94af45; }
+
+.record-page #record-detail {
+  background-image: url("../img/tables/record-detail_content.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center top;
+  background-attachment: scroll; }
+
+.record-page .test {
+  border: 1px solid blue;
+  opacity: 0; }
